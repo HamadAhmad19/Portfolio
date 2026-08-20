@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio Website",
+    "techStack": ["Next.js", "Tailwind CSS", "Framer Motion"],
+    "description": "A modern, responsive portfolio showcasing my skills, projects, and experience with smooth animations and a clean UI.",
+    "image": "/SpaceWebsite.png",
+    "link": "/",
+    "buttonText": "View Portfolio"
+  },
+
+  {
+    "id": 2,
+    "name": "Shoestops",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "Express",
+      "Node.js",
+      "Framer Motion"
+    ],
+    "description": "A MERN-based e-commerce platform with full CRUD product management, JWT auth, admin dashboard, and dynamic product routing.",
+    "image": "/shoestops.png",
+    "link": "https://www.shoestops.com/",
+    "buttonText": "Visit Website"
+  },
+
+  {
+    "id": 3,
+    "name": "Comments Fusion",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "Express",
+      "Node.js",
+      "Framer Motion"
+    ],
+    "description": "A full-stack MERN automation tool for LinkedIn engagement featuring JWT auth, dashboards, protected routes, and automated campaign workflows.",
+    "image": "/commentswebsite.png",
+    "link": "https://www.commentsfusion.com/",
+    "buttonText": "Visit Website"
+  },
+
+  {
+    "id": 4,
+    "name": "LeoEdge Dashboard",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "Express",
+      "Node.js",
+      "Framer Motion"
+    ],
+    "description": "A MERN-based CRM for managing employee attendance and salary records, featuring automatic salary deduction based on attendance and secure JWT authentication.",
+    "image": "/leoedge.png",
+    "link": "https://leo-edge-dashboard.vercel.app/",
+    "buttonText": "Visit Website"
+  },
+
+  {
+    "id": 5,
+    "name": "Transcend Healthcare",
+    "techStack": ["Next.js", "Tailwind CSS", "Strapi", "i18n"],
+    "description": "A healthcare website with dynamic routing, Strapi CMS, multi-language support, and URL-based navbar switching.",
+    "image": "/transcend.jpg",
+    "link": "https://thetranscendhealthcare.com/",
+    "buttonText": "Visit Website"
+  },
+
+  {
+    "id": 6,
+    "name": "HyperBlock Studio",
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Flowbite",
+      "Swiper.js"
+    ],
+    "description": "A visually rich website with animations, API integration, notifications, and fully responsive UI.",
+    "image": "/hyperblock.jpg",
+    "link": "https://www.hyperblockstudio.com/",
+    "buttonText": "Visit Website"
+  },
+
+  {
+    "id": 7,
+    "name": "Grabzer ",
+    "techStack": ["Next.js", "Bootstrap", "i18n", "Context API"],
+    "description": "A multilingual web application with dynamic API handling, token-based auth, global state with Context API, and pagination.",
+    "image": "/grabzer.jpg",
+    "link": "https://lrsite.7koncepts.com/",
+    "buttonText": "View Website"
+  },
+
+  {
+    "id": 8,
+    "name": "Grabzer Admin Dashboard",
+    "techStack": ["Next.js", "Tailwind CSS", "JWT Auth", "Context API"],
+    "description": "A secure admin dashboard featuring JWT authentication, global state handling, protected routes, and responsive UI.",
+    "image": "/grabzer-dashboard.jpg",
+    "link": "https://lr-admin.7koncepts.com/auth/login/",
+    "buttonText": "View Website"
+  },
+
+  {
+    "id": 9,
+    "name": "Seven Koncepts",
+    "techStack": ["React.js", "Bootstrap", "API Integration"],
+    "description": "A company profile website with dynamic API data, Swiper.js sliders, and a responsive React-based UI.",
+    "image": "/sk.jpg",
+    "link": "https://sevenkoncepts.com",
+    "buttonText": "View Website"
+  },
+
+  {
+    "id": 10,
+    "name": "Bombay Fifty",
+    "techStack": ["React", "Bootstrap", "JavaScript", "PHP"],
+    "description": "A restaurant website with API-driven content, responsive design, and smooth UI for an enhanced customer experience.",
+    "image": "/bombay-fifty.webp",
+    "link": "https://bombayfifty.com/",
+    "buttonText": "View Website"
+  },
+
+  {
+    "id": 11,
+    "name": "Lb908 Dashboard",
+    "techStack": ["HTML", "Bootstrap", "JavaScript", "PHP"],
+    "description": "A business promotion dashboard with API-based listings, shout-out features, user accounts, and profile management.",
+    "image": "/Lb908.jpg",
+    "link": "https://lb908-new.7koncepts.com/dashboard/",
+    "buttonText": "View Website"
+  }
+]
