@@ -1,49 +1,77 @@
 [
   {
     "index": 1,
-    "image": "/comments.jpg",
-    "company_name": "Comments Fusion",
-    "job_title": "MERN Stack Developer",
-    "site": "on-site",
-    "description": "Building full-stack features using React, Next.js, Node.js, Express, and MongoDB, including APIs, authentication, and Cloudinary integrations.",
-    "duration": "Oct 2024 - Present"
+    "company_name": "Visole Group of Companies",
+    "job_title": "Junior Software Developer",
+    "duration": "Dec 2025 – Present",
+    "location": "",
+    "site": "On-site",
+    "description": "Developing and enhancing customized enterprise software solutions using React.js and MySQL while collaborating directly with core management to transform business requirements into effective software solutions.",
+    "highlights": [
+      "Develop and maintain customized enterprise applications using React.js and MySQL.",
+      "Collaborate with core management and key decision-makers to gather and analyze business requirements.",
+      "Translate business requirements into effective software solutions.",
+      "Implement new functionality and enhance existing systems.",
+      "Resolve technical issues affecting business operations.",
+      "Continuously improve application functionality and software performance."
+    ],
+    "technologies": ["React.js", "MySQL"]
   },
-
   {
     "index": 2,
-    "image": "/sk_logo.jpg",
-    "company_name": "SevenKoncept",
-    "job_title": "Junior Frontend Developer",
-    "site": "on-site",
-    "description": "Worked on frontend projects using Next.js, React, Tailwind CSS, and Bootstrap to build responsive interfaces.",
-    "duration": "Oct 2024 - Present"
+    "company_name": "Octaloop Technologies",
+    "job_title": "Full Stack Developer Intern",
+    "duration": "Jul 2025 – Oct 2025",
+    "location": "Islamabad",
+    "site": "Islamabad",
+    "description": "Worked on production-level full-stack web applications across the complete development lifecycle, including API development, authentication, deployment, testing, and client collaboration.",
+    "highlights": [
+      "Built and maintained full-stack applications using React.js, Next.js, Node.js, Express.js, and MongoDB.",
+      "Designed REST APIs.",
+      "Integrated third-party services.",
+      "Implemented JWT authentication and role-based access control.",
+      "Worked on live projects end-to-end.",
+      "Promoted changes from staging to production.",
+      "Resolved production incidents.",
+      "Contributed unit tests.",
+      "Participated in Agile development sprints.",
+      "Worked with team leads and senior management.",
+      "Participated in client meetings for requirements gathering, demonstrations, and feedback implementation."
+    ],
+    "technologies": ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "REST APIs", "JWT"]
   },
-
   {
     "index": 3,
-    "image": "/ip.jpg",
-    "company_name": "Internship Pakistan",
-    "job_title": "Flutter Intern",
-    "site": "remote",
-    "description": "Developed frontend projects using Flutter, focusing on responsive UI and clean design.",
-    "duration": "June 2024 - August 2024"
+    "company_name": "Prodigy InfoTech",
+    "job_title": "Front-End Developer Intern",
+    "duration": "Jul 2024 – Sep 2024",
+    "location": "Remote",
+    "site": "Remote",
+    "description": "Developed responsive and interactive frontend experiences using React.js, JavaScript, HTML5, and CSS3 while creating reusable and scalable UI components.",
+    "highlights": [
+      "Built responsive and interactive web pages.",
+      "Used React.js, HTML5, CSS3, and JavaScript.",
+      "Created reusable and modular frontend components.",
+      "Improved frontend scalability and development efficiency.",
+      "Implemented responsive designs for multiple devices and screen sizes."
+    ],
+    "technologies": ["React.js", "JavaScript", "HTML5", "CSS3"]
   },
   {
     "index": 4,
-    "image": "/ouromine.jpg",
-    "company_name": "Ouromine Technologies",
-    "job_title": "Digital Marketing",
-    "site": "on-site",
-    "description": "Reached out to people listed for potential services and actively searched for individuals seeking help.",
-    "duration": "Sep 2024 - Oct 2024"
-  },
-  {
-    "index": 5,
-    "image": "/servixer.jpg",
-    "company_name": "Servixer",
-    "job_title": "Call Listener",
-    "site": "on-site",
-    "description": "Listened to calls and categorized them under SSB or DSV based on service needs.",
-    "duration": "Aug 2021 - Nov 2021"
+    "company_name": "PLYXIO Marketing Agency",
+    "job_title": "Social Media Marketing Assistant",
+    "duration": "Jan 2024 – Sep 2024",
+    "location": "Remote",
+    "site": "Remote",
+    "description": "Created and managed social media content across multiple platforms while analyzing campaign performance and engaging with online communities.",
+    "highlights": [
+      "Created and scheduled content across four or more major social media platforms.",
+      "Used Meta Business Suite to monitor campaign performance.",
+      "Analyzed campaign data and generated actionable insights.",
+      "Engaged directly with online communities.",
+      "Helped improve follower engagement and retention."
+    ],
+    "technologies": ["Meta Business Suite", "Social Media Management"]
   }
 ]

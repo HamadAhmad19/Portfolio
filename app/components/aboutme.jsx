@@ -35,34 +35,40 @@ const skills = [
 
 const timeline = [
   {
-    year: "2022",
+    year: "01",
     title: "Started My Web Development Journey",
     description:
-      "Began learning the fundamentals of HTML, CSS, and JavaScript. Built my first simple projects and became passionate about web development.",
+      "I began my journey in Computer Science at COMSATS University Islamabad, where I developed a strong interest in programming, software development, and building practical digital solutions.",
   },
   {
-    year: "2023",
+    year: "02",
     title: "Focused on Frontend Development",
     description:
-      "Mastered React, Next.js, and Tailwind CSS. Built responsive, modern UIs and improved my understanding of frontend architecture.",
+      "I started exploring frontend development through React.js, JavaScript, HTML, and CSS, improving my skills by building responsive interfaces and reusable components during my internship at Prodigy InfoTech.",
   },
   {
-    year: "2024",
-    title: "Expanded Into Backend Development",
+    year: "03",
+    title: "Expanded into Backend Development",
     description:
-      "Learned Node.js, Express, and MongoDB. Created REST APIs, handled authentication, connected databases, and deployed full-stack applications.",
+      "As my development skills grew, I moved into full-stack development and started working with Node.js, Express.js, MongoDB, REST APIs, authentication, and production-level application workflows.",
   },
   {
-    year: "2024",
+    year: "04",
     title: "Built Full-Stack Projects",
     description:
-      "Worked on complete applications including dashboards, e-commerce modules, authentication systems, and real-world CRUD solutions.",
+      "I worked on complete web applications where I handled frontend development, backend APIs, database integration, authentication, testing, deployment, and client-driven feature improvements.",
   },
   {
-    year: "2025",
-    title: "Growing as a Full-Stack Developer",
+    year: "05",
+    title: "Entering Professional Development",
     description:
-      "Actively building scalable, production-ready apps using the MERN stack. Continuously improving skills and staying updated with modern web technologies.",
+      "After completing my Computer Science degree, I joined Visole Group of Companies as a Junior Software Developer and began working on customized enterprise software used for real business operations.",
+  },
+  {
+    year: "06",
+    title: "Building Enterprise Solutions",
+    description:
+      "Today, I focus on developing and improving enterprise applications, including ERP modules for HR, recruitment, CRM, supply chain, inventory, sales forecasting, reporting, and business management.",
   },
 ];
 

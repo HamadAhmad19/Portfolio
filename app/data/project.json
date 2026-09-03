@@ -1,138 +1,151 @@
 [
   {
     "id": 1,
-    "name": "Portfolio Website",
-    "techStack": ["Next.js", "Tailwind CSS", "Framer Motion"],
-    "description": "A modern, responsive portfolio showcasing my skills, projects, and experience with smooth animations and a clean UI.",
-    "image": "/SpaceWebsite.png",
-    "link": "/",
-    "buttonText": "View Portfolio"
+    "name": "Digital Office Management Engine",
+    "subtitle": "Enterprise ERP System",
+    "isFeatured": true,
+    "description": "A comprehensive enterprise ERP platform developed for Visole employees to centralize daily business operations including business analytics, HR, recruitment, CRM, supply chain, sales forecasting, inventory, travel reporting, and administration.",
+    "image": "/leoedge.png",
+    "techStack": ["React.js", "MySQL"],
+    "modules": [
+      {
+        "title": "Business Module",
+        "items": [
+          "Organization-wide business insights.",
+          "Sales statistics by principal, customer, and item.",
+          "Inventory statistics.",
+          "Open sales orders.",
+          "Open delivery challans.",
+          "Market analysis data."
+        ]
+      },
+      {
+        "title": "Travel and Visit Reporting Module",
+        "items": [
+          "Employee travel management.",
+          "Daily field visit reporting.",
+          "Allows sales personnel to submit visit reports.",
+          "Allows management to monitor field activities and reporting records."
+        ]
+      },
+      {
+        "title": "Human Resource Module",
+        "items": [
+          "Centralized employee management.",
+          "Probation evaluations.",
+          "Departmental goal tracking.",
+          "Company asset management.",
+          "Employee salary sheet administration."
+        ]
+      },
+      {
+        "title": "Recruitment Module",
+        "items": [
+          "Job requisition management.",
+          "Job opening creation.",
+          "Candidate tracking.",
+          "Interview scheduling.",
+          "Employment offer management.",
+          "Recruitment lifecycle management."
+        ]
+      },
+      {
+        "title": "Automated Resume Processing",
+        "items": [
+          "Extracts candidate information from uploaded CVs.",
+          "Automatically populates application fields.",
+          "Reduces manual HR data entry.",
+          "Improves recruitment workflow efficiency."
+        ]
+      },
+      {
+        "title": "CRM Funnel Module",
+        "items": [
+          "Customer lead management.",
+          "Tender management.",
+          "Quotation tracking.",
+          "Sales opportunity management.",
+          "CRM funnel activity tracking.",
+          "Company lead data management.",
+          "Opportunity tracking across multiple customers."
+        ]
+      },
+      {
+        "title": "Supply Chain Module",
+        "items": [
+          "Real-time operational dashboard.",
+          "Sales order monitoring.",
+          "Open delivery challan monitoring.",
+          "Open purchase order monitoring.",
+          "Centralized supply-chain visibility."
+        ]
+      },
+      {
+        "title": "Sales Forecast Dashboard",
+        "items": [
+          "Customer-wise sales analysis.",
+          "Item-wise sales analysis.",
+          "Historical sales reports.",
+          "Future sales forecasting.",
+          "Forecast creation against specific customers and items.",
+          "Supports demand planning and business decision-making."
+        ]
+      },
+      {
+        "title": "Inventory Module",
+        "items": [
+          "Goods receipt management.",
+          "Goods issue management.",
+          "Inventory transfers between locations.",
+          "Company-wide inventory tracking.",
+          "Stock movement visibility.",
+          "Day-to-day inventory management."
+        ]
+      }
+    ]
   },
-
   {
     "id": 2,
-    "name": "Shoestops",
-    "techStack": [
-      "Next.js",
-      "Tailwind CSS",
-      "MongoDB",
-      "Express",
-      "Node.js",
-      "Framer Motion"
-    ],
-    "description": "A MERN-based e-commerce platform with full CRUD product management, JWT auth, admin dashboard, and dynamic product routing.",
-    "image": "/shoestops.png",
-    "link": "https://www.shoestops.com/",
-    "buttonText": "Visit Website"
+    "name": "Nexify HR",
+    "subtitle": "HR Automation SaaS Platform",
+    "isFeatured": false,
+    "description": "An end-to-end SaaS application that automates major HR workflows including candidate screening, CV parsing, interview scheduling, employee performance management, and wellness.",
+    "image": "/commentswebsite.png",
+    "techStack": [],
+    "features": [
+      "Automated CV parsing.",
+      "Extraction of candidate skills, education, and experience.",
+      "Interview scheduling using calendar availability.",
+      "Automated interview reminders.",
+      "Secure meeting links for remote interviews.",
+      "Employee performance tracking.",
+      "Goal management.",
+      "Performance reviews.",
+      "Analytics dashboards for managers and HR teams.",
+      "Employee wellness functionality."
+    ]
   },
-
   {
     "id": 3,
-    "name": "Comments Fusion",
-    "techStack": [
-      "Next.js",
-      "Tailwind CSS",
-      "MongoDB",
-      "Express",
-      "Node.js",
-      "Framer Motion"
-    ],
-    "description": "A full-stack MERN automation tool for LinkedIn engagement featuring JWT auth, dashboards, protected routes, and automated campaign workflows.",
-    "image": "/commentswebsite.png",
-    "link": "https://www.commentsfusion.com/",
-    "buttonText": "Visit Website"
-  },
-
-  {
-    "id": 4,
-    "name": "LeoEdge Dashboard",
-    "techStack": [
-      "Next.js",
-      "Tailwind CSS",
-      "MongoDB",
-      "Express",
-      "Node.js",
-      "Framer Motion"
-    ],
-    "description": "A MERN-based CRM for managing employee attendance and salary records, featuring automatic salary deduction based on attendance and secure JWT authentication.",
-    "image": "/leoedge.png",
-    "link": "https://leo-edge-dashboard.vercel.app/",
-    "buttonText": "Visit Website"
-  },
-
-  {
-    "id": 5,
-    "name": "Transcend Healthcare",
-    "techStack": ["Next.js", "Tailwind CSS", "Strapi", "i18n"],
-    "description": "A healthcare website with dynamic routing, Strapi CMS, multi-language support, and URL-based navbar switching.",
-    "image": "/transcend.jpg",
-    "link": "https://thetranscendhealthcare.com/",
-    "buttonText": "Visit Website"
-  },
-
-  {
-    "id": 6,
-    "name": "HyperBlock Studio",
-    "techStack": [
-      "Next.js",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Flowbite",
-      "Swiper.js"
-    ],
-    "description": "A visually rich website with animations, API integration, notifications, and fully responsive UI.",
-    "image": "/hyperblock.jpg",
-    "link": "https://www.hyperblockstudio.com/",
-    "buttonText": "Visit Website"
-  },
-
-  {
-    "id": 7,
-    "name": "Grabzer ",
-    "techStack": ["Next.js", "Bootstrap", "i18n", "Context API"],
-    "description": "A multilingual web application with dynamic API handling, token-based auth, global state with Context API, and pagination.",
-    "image": "/grabzer.jpg",
-    "link": "https://lrsite.7koncepts.com/",
-    "buttonText": "View Website"
-  },
-
-  {
-    "id": 8,
-    "name": "Grabzer Admin Dashboard",
-    "techStack": ["Next.js", "Tailwind CSS", "JWT Auth", "Context API"],
-    "description": "A secure admin dashboard featuring JWT authentication, global state handling, protected routes, and responsive UI.",
-    "image": "/grabzer-dashboard.jpg",
-    "link": "https://lr-admin.7koncepts.com/auth/login/",
-    "buttonText": "View Website"
-  },
-
-  {
-    "id": 9,
-    "name": "Seven Koncepts",
-    "techStack": ["React.js", "Bootstrap", "API Integration"],
-    "description": "A company profile website with dynamic API data, Swiper.js sliders, and a responsive React-based UI.",
-    "image": "/sk.jpg",
-    "link": "https://sevenkoncepts.com",
-    "buttonText": "View Website"
-  },
-
-  {
-    "id": 10,
-    "name": "Bombay Fifty",
-    "techStack": ["React", "Bootstrap", "JavaScript", "PHP"],
-    "description": "A restaurant website with API-driven content, responsive design, and smooth UI for an enhanced customer experience.",
-    "image": "/bombay-fifty.webp",
-    "link": "https://bombayfifty.com/",
-    "buttonText": "View Website"
-  },
-
-  {
-    "id": 11,
-    "name": "Lb908 Dashboard",
-    "techStack": ["HTML", "Bootstrap", "JavaScript", "PHP"],
-    "description": "A business promotion dashboard with API-based listings, shout-out features, user accounts, and profile management.",
+    "name": "Advanced Billing System",
+    "subtitle": "Electricity Billing Management Application",
+    "isFeatured": false,
+    "description": "A Java-based electricity billing system designed to automate electricity bill calculations, electricity usage tracking, billing history management, and invoice generation.",
     "image": "/Lb908.jpg",
-    "link": "https://lb908-new.7koncepts.com/dashboard/",
-    "buttonText": "View Website"
+    "techStack": ["Java", "Java Swing", "Java File Handling"],
+    "features": [
+      "Automated electricity bill calculations.",
+      "Electricity usage tracking.",
+      "Previous billing record management.",
+      "Interactive Java Swing GUI.",
+      "Customer usage entry.",
+      "Bill viewing.",
+      "Invoice generation.",
+      "Java file handling for storing and retrieving user information.",
+      "Structured text-file billing records.",
+      "Input validation.",
+      "File-operation validation.",
+      "Improved billing data integrity."
+    ]
   }
 ]
