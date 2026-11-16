@@ -1,13 +1,7 @@
-"use client";
-import React from "react";
-import Projects from "@/app/components/projects.jsx";
+import { redirect } from "next/navigation";
 
 const ProjectsPage = () => {
-  return (
-    <div className="pt-16">
-      <Projects showSeeMoreLink={false} />
-    </div>
-  );
+  redirect("/work");
 };
 
 export default ProjectsPage;

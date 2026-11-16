@@ -5,7 +5,7 @@
     "subtitle": "Enterprise ERP System",
     "isFeatured": true,
     "description": "A comprehensive enterprise ERP platform developed for Visole employees to centralize daily business operations including business analytics, HR, recruitment, CRM, supply chain, sales forecasting, inventory, travel reporting, and administration.",
-    "image": "/leoedge.png",
+    "image": "/Projects/Dome/DOME%20Log%20in%20page.png",
     "techStack": ["React.js", "MySQL"],
     "modules": [
       {

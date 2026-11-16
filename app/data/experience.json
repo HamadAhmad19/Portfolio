@@ -2,41 +2,32 @@
   {
     "index": 1,
     "company_name": "Visole Group of Companies",
-    "job_title": "Junior Software Developer",
+    "job_title": "Associate / Junior Software Developer",
     "duration": "Dec 2025 – Present",
     "location": "",
     "site": "On-site",
-    "description": "Developing and enhancing customized enterprise software solutions using React.js and MySQL while collaborating directly with core management to transform business requirements into effective software solutions.",
+    "description": "Design, develop and maintain customized enterprise software using React.js and MySQL, including the Digital Office Management Engine (ERP) used across sales, inventory, HR and recruitment.",
     "highlights": [
-      "Develop and maintain customized enterprise applications using React.js and MySQL.",
-      "Collaborate with core management and key decision-makers to gather and analyze business requirements.",
-      "Translate business requirements into effective software solutions.",
-      "Implement new functionality and enhance existing systems.",
-      "Resolve technical issues affecting business operations.",
-      "Continuously improve application functionality and software performance."
+      "Design, develop and maintain customized enterprise software using React.js and MySQL, including the Digital Office Management Engine (ERP) used across sales, inventory, HR and recruitment.",
+      "Partner with core management and key decision-makers to gather business requirements and translate them into effective software solutions.",
+      "Implement new features, resolve technical issues and improve existing systems to support day-to-day business operations.",
+      "Work on a Warehouse and Production Management System integrated with SAP Business One."
     ],
-    "technologies": ["React.js", "MySQL"]
+    "technologies": ["React.js", "MySQL", "SAP Business One", "ERP", "WMS"]
   },
   {
     "index": 2,
     "company_name": "Octaloop Technologies",
-    "job_title": "Full Stack Developer Intern",
+    "job_title": "Full Stack Developer",
     "duration": "Jul 2025 – Oct 2025",
     "location": "Islamabad",
     "site": "Islamabad",
-    "description": "Worked on production-level full-stack web applications across the complete development lifecycle, including API development, authentication, deployment, testing, and client collaboration.",
+    "description": "Built and maintained full-stack web applications using React.js, Next.js, Node.js, Express.js and MongoDB across live client projects.",
     "highlights": [
-      "Built and maintained full-stack applications using React.js, Next.js, Node.js, Express.js, and MongoDB.",
-      "Designed REST APIs.",
-      "Integrated third-party services.",
-      "Implemented JWT authentication and role-based access control.",
-      "Worked on live projects end-to-end.",
-      "Promoted changes from staging to production.",
-      "Resolved production incidents.",
-      "Contributed unit tests.",
-      "Participated in Agile development sprints.",
-      "Worked with team leads and senior management.",
-      "Participated in client meetings for requirements gathering, demonstrations, and feedback implementation."
+      "Built and maintained full-stack web applications using React.js, Next.js, Node.js, Express.js and MongoDB.",
+      "Designed RESTful APIs, integrated third-party services and implemented JWT authentication with role-based access control.",
+      "Contributed to live client projects end-to-end: promoted changes from staging to production, resolved production incidents and wrote unit tests.",
+      "Collaborated with team leads and senior management in Agile sprints and joined client meetings to gather requirements and demonstrate features."
     ],
     "technologies": ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "REST APIs", "JWT"]
   },
@@ -47,31 +38,12 @@
     "duration": "Jul 2024 – Sep 2024",
     "location": "Remote",
     "site": "Remote",
-    "description": "Developed responsive and interactive frontend experiences using React.js, JavaScript, HTML5, and CSS3 while creating reusable and scalable UI components.",
+    "description": "Built responsive, interactive web pages using React.js, HTML5, CSS3 and JavaScript while creating reusable, modular components.",
     "highlights": [
-      "Built responsive and interactive web pages.",
-      "Used React.js, HTML5, CSS3, and JavaScript.",
-      "Created reusable and modular frontend components.",
-      "Improved frontend scalability and development efficiency.",
-      "Implemented responsive designs for multiple devices and screen sizes."
+      "Built responsive, interactive web pages using React.js, HTML5, CSS3 and JavaScript.",
+      "Created reusable, modular components that improved scalability and development efficiency.",
+      "Implemented responsive designs that improved user experience across devices and screen sizes."
     ],
     "technologies": ["React.js", "JavaScript", "HTML5", "CSS3"]
-  },
-  {
-    "index": 4,
-    "company_name": "PLYXIO Marketing Agency",
-    "job_title": "Social Media Marketing Assistant",
-    "duration": "Jan 2024 – Sep 2024",
-    "location": "Remote",
-    "site": "Remote",
-    "description": "Created and managed social media content across multiple platforms while analyzing campaign performance and engaging with online communities.",
-    "highlights": [
-      "Created and scheduled content across four or more major social media platforms.",
-      "Used Meta Business Suite to monitor campaign performance.",
-      "Analyzed campaign data and generated actionable insights.",
-      "Engaged directly with online communities.",
-      "Helped improve follower engagement and retention."
-    ],
-    "technologies": ["Meta Business Suite", "Social Media Management"]
   }
 ]

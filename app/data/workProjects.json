@@ -1,0 +1,621 @@
+[
+  {
+    "slug": "dome-enterprise",
+    "name": "DOME",
+    "category": "Enterprise",
+    "label": "Internal product",
+    "subtitle": "Business operations and reporting",
+    "cardDescription": "A system involving operational workflows, access permissions, audit trails, and reporting functionality.",
+    "heroDescription": "Operational workflows, access permissions, audit trails, and reporting in one system.",
+    "image": "/Projects/Dome/DOME Log in page.png",
+    "techStack": ["React", "Node.js", "MySQL", "SQL Server"],
+    "tags": ["Operations Focus", "Role-based Access", "Audit trails", "Traceability"],
+    "overview": "DOME is an internal product case study: a business operations system involving workflows, role-based access, audit trails, and reporting.",
+    "challenge": "Operational work was spread across disconnected tools and manual processes, making permissions, handoffs, and reporting harder to manage consistently.",
+    "solution": "A modular operations system with shared interface patterns, role-based permissions, audit logging, and reporting views shaped around the work people needed to complete.",
+    "features": [
+      {
+        "title": "Operational workflows",
+        "description": "Structured processes for managing day-to-day operational work in one place."
+      },
+      {
+        "title": "Role-based permissions",
+        "description": "Access controls that determine which actions different users are allowed to perform."
+      },
+      {
+        "title": "Reporting views",
+        "description": "Reporting functionality for reviewing operational information without relying only on manual exports."
+      },
+      {
+        "title": "Audit trails",
+        "description": "Records of relevant changes so teams can review what happened and when."
+      }
+    ],
+    "outcome": "DOME provides a single operations system where workflows, permissions, audit history, and reporting can be handled together."
+  },
+  {
+    "slug": "citi-books",
+    "name": "Citi Books",
+    "category": "Commerce",
+    "label": "Selected work",
+    "subtitle": "Commerce storefront",
+    "cardDescription": "A store for books, art supplies, school supplies and office tools, with search, categories and a cart.",
+    "heroDescription": "A commerce storefront for books, art supplies, school supplies and office tools.",
+    "image": "/Projects/citi/screencapture-citibooks-org-2026-11-06-13_11_18.png",
+    "techStack": ["React", "Next.js", "Node.js"],
+    "tags": ["Ecommerce", "Catalog", "Cart"],
+    "overview": "Citi Books is a commerce storefront designed for browsing and purchasing books, art supplies, school supplies, and office tools.",
+    "challenge": "The store needed a clean catalog experience with searchable products, clear categories, and a simple cart flow for everyday shoppers.",
+    "solution": "Built a responsive storefront with search, category browsing, and cart functionality focused on usability and product discovery.",
+    "features": [
+      {
+        "title": "Product search",
+        "description": "Fast search across books, supplies, and office tools."
+      },
+      {
+        "title": "Category browsing",
+        "description": "Organized categories that help customers find the right products quickly."
+      },
+      {
+        "title": "Cart experience",
+        "description": "A straightforward cart flow for adding items and completing purchases."
+      }
+    ],
+    "outcome": "Delivered a clean commerce storefront focused on browsing, search, and cart usability."
+  },
+  {
+    "slug": "glucotrack-cgm",
+    "name": "GlucoTrack",
+    "category": "Healthcare",
+    "label": "Selected work",
+    "subtitle": "CGM platform",
+    "cardDescription": "CGM platform for device pairing, glucose monitoring, alerts, reporting, and patient account management.",
+    "heroDescription": "A development-stage Continuous Glucose Monitoring (CGM) platform designed to connect patients with supported glucose-monitoring devices and provide a complete digital workflow for device pairing, glucose monitoring, alerts, reporting, and patient account management.",
+    "image": "/Projects/CGM/0f73c824-3d1f-4705-8155-4f50d6b5fea2.png",
+    "gallery": [
+      "/Projects/CGM/0f73c824-3d1f-4705-8155-4f50d6b5fea2.png",
+      "/Projects/CGM/90923bde-0d12-435a-9b80-24eca6f3bc8b.png",
+      "/Projects/CGM/e9a72d35-6b32-4e07-b3ee-af150ddb7d46.png",
+      "/Projects/CGM/a6af4c22-4e54-4eb2-ac18-bf4d7b0946d6.png"
+    ],
+    "displayTags": ["Healthcare", "Mobile App", "IoT / BLE"],
+    "projectType": "Personal Project",
+    "role": "Full-Stack Developer",
+    "timeline": "~8 Weeks",
+    "status": "Completed",
+    "tags": ["Device pairing", "Glucose monitoring", "Clinical dashboard"],
+    "overview": "GlucoTrack is a development-stage Continuous Glucose Monitoring (CGM) platform designed to connect patients with supported glucose-monitoring devices and provide a complete digital workflow for device pairing, glucose monitoring, alerts, reporting, and patient account management. The platform consists of a cross-platform mobile application, a web API, a SQL Server database, and a Bluetooth Low Energy device communication layer. It also includes a Windows-based BLE simulator used for development and hardware integration testing. The application supports the complete patient onboarding journey, including registration, login, profile setup, glucose-unit preferences, CGM device selection, Bluetooth permission handling, sensor scanning, device verification, and backend device registration. A key part of the project is the BLE integration workflow, where the mobile application scans for supported CGM devices, establishes a GATT connection, discovers the required services and characteristics, and verifies device information such as firmware version, serial number, battery voltage, temperature, and measurement status before registering the device with the backend. The patient dashboard provides a centralized interface for viewing glucose information, trends, history, reports, alerts, sensor status, and profile information. It also includes quick actions for logging meal, insulin, and activity events, as well as report export and sharing functionality. The backend provides secure REST APIs for authentication, patient profiles, device registration, sensor sessions, glucose measurements, glucose history and summaries, alerts, and database health monitoring. Authentication is handled using JWT access tokens with rotating refresh tokens, while user-specific data is securely scoped to the authenticated account.",
+    "challenge": "Patients needed a complete digital workflow to connect with supported glucose-monitoring devices, complete onboarding, pair and verify a CGM sensor over Bluetooth, register the device securely, and monitor glucose activity through trends, history, alerts, and reports in one place.",
+    "solution": "Built an end-to-end CGM platform covering patient onboarding, BLE device discovery and verification, backend device and sensor registration, secure account APIs, and a clinical dashboard for glucose monitoring, alerts, reporting, and profile management, with a BLE simulator for development and integration testing.",
+    "features": [
+      {
+        "title": "Cross-platform CGM patient app",
+        "description": "Cross-platform CGM patient mobile application for the full monitoring workflow."
+      },
+      {
+        "title": "Secure registration and recovery",
+        "description": "Secure registration, login, and password recovery for patient accounts."
+      },
+      {
+        "title": "Patient profile management",
+        "description": "Patient profile and glucose-unit management as part of onboarding."
+      },
+      {
+        "title": "BLE device discovery and pairing",
+        "description": "Bluetooth Low Energy device discovery and pairing with supported CGM sensors."
+      },
+      {
+        "title": "Device verification",
+        "description": "CGM firmware, serial number, battery, temperature, and device-state verification before registration."
+      },
+      {
+        "title": "Device and sensor registration",
+        "description": "Backend device and sensor registration tied to the authenticated patient account."
+      },
+      {
+        "title": "Glucose APIs and history",
+        "description": "Glucose measurement APIs and history support for clinical monitoring flows."
+      },
+      {
+        "title": "Trend and summary dashboards",
+        "description": "Glucose trend and summary dashboards for reviewing patient activity."
+      },
+      {
+        "title": "Critical glucose alerts",
+        "description": "Critical low and high glucose alert handling."
+      },
+      {
+        "title": "PDF report sharing",
+        "description": "PDF report generation and sharing functionality."
+      },
+      {
+        "title": "Event tracking",
+        "description": "Meal, insulin, and activity event tracking from the dashboard."
+      },
+      {
+        "title": "Secure authentication",
+        "description": "JWT authentication with refresh-token rotation and account-scoped data access."
+      },
+      {
+        "title": "Clinical data storage",
+        "description": "SQL Server-based patient, device, sensor, glucose, and alert storage."
+      },
+      {
+        "title": "BLE hardware simulator",
+        "description": "BLE hardware simulator for development and integration testing."
+      }
+    ],
+    "outcome": "The project demonstrates a strong foundation for an end-to-end CGM ecosystem, combining secure patient management, real BLE device discovery and verification, backend APIs, SQL persistence, device registration, and a polished clinical monitoring interface. The remaining development work is mainly focused on completing the live glucose-data pipeline from physical sensor measurements through backend synchronization to real-time dashboard visualization.",
+    "techStack": [
+      ".NET MAUI",
+      "C#",
+      "XAML",
+      "MVVM",
+      "CommunityToolkit.Mvvm",
+      "ASP.NET Core Web API",
+      "Entity Framework Core",
+      "Microsoft SQL Server",
+      "JWT + Refresh Tokens",
+      "Bluetooth Low Energy (BLE / GATT)",
+      "Android",
+      "iOS",
+      "Windows",
+      "Mac Catalyst",
+      "Windows BLE Simulator"
+    ]
+  },
+  {
+    "slug": "matrix-field-service",
+    "name": "Matrix",
+    "category": "Field service",
+    "label": "Selected work",
+    "subtitle": "Field service app",
+    "cardDescription": "Jobs, live tracking, equipment scan and support chat for technicians in the field.",
+    "heroDescription": "A field-service mobile and web application supporting technicians, customers, and operational teams.",
+    "image": "/Projects/Matrix Web/Martrix.avif",
+    "techStack": ["React Native", "Node.js", "Offline Sync"],
+    "tags": ["Jobs", "Live tracking", "Equipment scan"],
+    "overview": "A platform to track daily activities, service visits, and company instrument assets of field engineers.",
+    "challenge": "Field technicians previously relied on paper job sheets and patchy messaging apps, resulting in delayed billing, lost records, and no real-time tracking.",
+    "solution": "Built an offline-capable mobile client and web monitoring module for jobs, visit validation with live location, equipment checks, and manager oversight.",
+    "features": [
+      {
+        "title": "Offline-first work orders",
+        "description": "Complete inspection forms and capture evidence with limited connectivity."
+      },
+      {
+        "title": "Live visit validation",
+        "description": "Capture visit reports with live location to validate field activity."
+      },
+      {
+        "title": "Manager web module",
+        "description": "Monitor performance, reports, and assets from a web dashboard."
+      }
+    ],
+    "outcome": "Field teams gained structured job tracking, visit validation, and clearer operational visibility."
+  },
+  {
+    "slug": "ayat",
+    "name": "Ayat",
+    "category": "Mobile",
+    "label": "Demonstration project",
+    "subtitle": "Quran companion",
+    "cardDescription": "A mobile companion for surah library, audio, qibla, prayer times and tasbeeh.",
+    "heroDescription": "A mobile companion for surah library, audio playback, qibla, prayer times, and tasbeeh.",
+    "image": "/Projects/ayat/AYAT.avif",
+    "techStack": ["Flutter", "Dart"],
+    "tags": ["Audio", "Prayer times", "Qibla"],
+    "overview": "Ayat is a demonstration mobile project focused on reading, listening, and daily prayer utilities.",
+    "challenge": "Users needed a simple mobile companion that combines reading, audio, prayer utilities, and daily tracking in one place.",
+    "solution": "Designed a clean mobile experience with a surah library, audio support, qibla direction, prayer times, and tasbeeh tools.",
+    "features": [
+      {
+        "title": "Surah library",
+        "description": "Browse and read surah content in a mobile-friendly layout."
+      },
+      {
+        "title": "Audio playback",
+        "description": "Listen to recitations with straightforward playback controls."
+      },
+      {
+        "title": "Daily utilities",
+        "description": "Qibla, prayer times, and tasbeeh support for everyday use."
+      }
+    ],
+    "outcome": "A polished demonstration app showing mobile UI, navigation, and utility-focused feature design."
+  },
+  {
+    "slug": "fitness",
+    "name": "Fitness",
+    "category": "Mobile",
+    "label": "Demonstration project",
+    "subtitle": "Workout app",
+    "cardDescription": "Workout plans, weekly progress and activity tracking on mobile.",
+    "heroDescription": "A mobile workout app for plans, weekly progress, and activity tracking.",
+    "image": "/Projects/Fitnes/gzh3rmcylkflea61foob.avif",
+    "techStack": ["Flutter", "Dart"],
+    "tags": ["Workouts", "Progress", "Tracking"],
+    "overview": "Fitness is a demonstration mobile project for workout planning and weekly activity tracking.",
+    "challenge": "Users needed a simple way to follow workout plans and review weekly progress without a complicated fitness platform.",
+    "solution": "Built a mobile experience focused on workout plans, activity tracking, and clear weekly progress views.",
+    "features": [
+      {
+        "title": "Workout plans",
+        "description": "Structured plans that help users follow routines consistently."
+      },
+      {
+        "title": "Weekly progress",
+        "description": "Progress views that summarize activity over the week."
+      },
+      {
+        "title": "Activity tracking",
+        "description": "Simple tracking for completed workouts and ongoing activity."
+      }
+    ],
+    "outcome": "A clean demo of mobile fitness UX with plans, tracking, and progress visibility."
+  },
+  {
+    "slug": "warehouse-grn-automation",
+    "name": "WPS",
+    "category": "Operations",
+    "label": "Selected work",
+    "subtitle": "Warehouse production",
+    "cardDescription": "Scan and track on the floor, with a production dashboard connected to SAP.",
+    "heroDescription": "Warehouse workflows for document intake, purchase-order matching, batch checks, and verified SAP Business One commits.",
+    "image": "/Projects/Warehouse production/zxsugxofqpnhmjjtwbom.avif",
+    "techStack": ["React", "Node.js", "SQL Server", "SAP Business One"],
+    "tags": ["Receiving Focus", "SAP B1 Integration", "GRN + PO Workflow"],
+    "overview": "Selected warehouse work for a logistics-style receiving process: replace paper GRN checks with a structured dock workflow that matches deliveries to open purchase orders and commits verified receipts into SAP Business One.",
+    "challenge": "Dock teams compared vendor documents to open SAP purchase orders by hand. That slowed receiving, increased batch-entry mistakes, and delayed inventory visibility.",
+    "solution": "A receiving console and automation pipeline for document intake, PO matching, exception review, batch checks, and SAP commit only after validation.",
+    "features": [
+      {
+        "title": "Purchase-order matching",
+        "description": "Compare inbound shipment lines against open POs so mismatches are visible before stock is committed."
+      },
+      {
+        "title": "Batch and lot checks",
+        "description": "Capture and validate batch or expiry details when the warehouse process requires them."
+      },
+      {
+        "title": "SAP Business One commit",
+        "description": "Push verified receipts into SAP after checks pass, instead of re-keying from paper at the dock."
+      },
+      {
+        "title": "Exception handling",
+        "description": "Route short shipments, wrong SKUs, and other discrepancies for supervisor review."
+      }
+    ],
+    "outcome": "Receiving moved from paper-heavy, line-by-line SAP re-entry to a structured dock workflow with document intake, PO checks, exception review, and verified SAP commits."
+  },
+  {
+    "slug": "shoestops",
+    "name": "Shoestops",
+    "category": "Commerce",
+    "label": "Selected work",
+    "subtitle": "E-commerce Platform",
+    "cardDescription": "A modern e-commerce platform for footwear with fast search, secure checkout and a seamless user experience.",
+    "heroDescription": "A modern footwear ecommerce platform with fast search, secure checkout, and a seamless shopping experience.",
+    "image": "/shoestops.png",
+    "techStack": ["Next.js", "React", "Node.js"],
+    "tags": ["Ecommerce", "Checkout", "Search"],
+    "overview": "Shoestops is an ecommerce platform focused on footwear discovery, search, and checkout.",
+    "challenge": "The store needed a modern shopping experience with fast product discovery and a reliable checkout path.",
+    "solution": "Built a responsive ecommerce interface with fast search, product browsing, and secure checkout flows.",
+    "features": [
+      {
+        "title": "Fast search",
+        "description": "Quick product discovery across footwear catalogs."
+      },
+      {
+        "title": "Secure checkout",
+        "description": "A checkout experience designed for clarity and conversion."
+      },
+      {
+        "title": "Responsive shopping UI",
+        "description": "A seamless experience across desktop and mobile browsers."
+      }
+    ],
+    "outcome": "Delivered a polished ecommerce storefront focused on search, browsing, and checkout."
+  },
+  {
+    "slug": "comments-fusion",
+    "name": "Comments Fusion",
+    "category": "Automation",
+    "label": "Selected work",
+    "subtitle": "Business Automation Platform",
+    "cardDescription": "A full-stack engagement automation platform with authentication, protected routes, dashboards and campaign workflows.",
+    "heroDescription": "A full-stack engagement automation platform with authentication, protected routes, dashboards, and campaign workflows.",
+    "image": "/commentswebsite.png",
+    "techStack": ["Next.js", "Node.js", "MongoDB", "JWT"],
+    "tags": ["Auth", "Dashboards", "Campaigns"],
+    "overview": "Comments Fusion is a business automation platform for managing engagement workflows, campaigns, and protected operational dashboards.",
+    "challenge": "Teams needed a centralized way to manage campaign workflows, authentication, and operational dashboards without scattered tools.",
+    "solution": "Built a full-stack platform with JWT authentication, protected routes, dashboards, and campaign workflow management.",
+    "features": [
+      {
+        "title": "Authentication & protected routes",
+        "description": "Secure account access with protected application areas."
+      },
+      {
+        "title": "Operational dashboards",
+        "description": "Dashboards for reviewing campaign status and engagement activity."
+      },
+      {
+        "title": "Campaign workflows",
+        "description": "Structured workflows for managing engagement campaigns end to end."
+      }
+    ],
+    "outcome": "A complete automation platform foundation with auth, dashboards, and campaign management."
+  },
+  {
+    "slug": "transcend-healthcare",
+    "name": "Transcend Healthcare",
+    "category": "Healthcare",
+    "label": "Selected work",
+    "subtitle": "Healthcare Website & CMS",
+    "cardDescription": "A healthcare website with dynamic routing, CMS-managed content, multilingual support and URL-based navigation.",
+    "heroDescription": "A healthcare website with dynamic routing, CMS-managed content, multilingual support, and URL-based navigation.",
+    "image": "/transcend.jpg",
+    "techStack": ["Next.js", "Strapi CMS", "Tailwind CSS", "i18n"],
+    "tags": ["CMS", "Localization", "Dynamic routing"],
+    "overview": "Transcend Healthcare is a content-driven healthcare website with multilingual support and CMS-managed pages.",
+    "challenge": "The site needed flexible content management, multilingual pages, and clean URL-based navigation for healthcare content.",
+    "solution": "Implemented a Next.js frontend with Strapi CMS, dynamic routing, Tailwind styling, and i18n localization.",
+    "features": [
+      {
+        "title": "CMS-managed content",
+        "description": "Editors can update healthcare content without rebuilding the site."
+      },
+      {
+        "title": "Multilingual support",
+        "description": "Localized content and navigation for multilingual audiences."
+      },
+      {
+        "title": "Dynamic routing",
+        "description": "URL-based navigation for flexible page structures."
+      }
+    ],
+    "outcome": "A maintainable healthcare website with CMS workflows and localization support."
+  },
+  {
+    "slug": "sap-b1-production-dashboard",
+    "name": "SAP Business One Production Dashboard",
+    "category": "Manufacturing",
+    "label": "Selected work",
+    "subtitle": "Manufacturing & SAP Integration",
+    "cardDescription": "Production intelligence covering manufacturing activity, inventory, machine performance and cost analysis.",
+    "heroDescription": "Production intelligence covering manufacturing activity, inventory, machine performance, and cost analysis.",
+    "image": "/Projects/Warehouse production/zxsugxofqpnhmjjtwbom.avif",
+    "techStack": ["React", "Node.js", "SQL Server", "SAP Business One"],
+    "tags": ["Manufacturing", "Inventory", "Cost analysis"],
+    "overview": "A production dashboard connected to SAP Business One for manufacturing activity, inventory visibility, machine performance, and cost analysis.",
+    "challenge": "Manufacturing teams needed clearer visibility into production activity, inventory, and machine performance without relying only on ERP screens and exports.",
+    "solution": "Built a production intelligence dashboard that surfaces manufacturing metrics, inventory signals, and cost analysis in one place.",
+    "features": [
+      {
+        "title": "Manufacturing activity views",
+        "description": "Track production status and operational activity from a shared dashboard."
+      },
+      {
+        "title": "Inventory visibility",
+        "description": "Review stock and production-related inventory signals more clearly."
+      },
+      {
+        "title": "Machine and cost analysis",
+        "description": "Surface machine performance and production cost insights for decision-making."
+      }
+    ],
+    "outcome": "Gave operations teams a clearer production intelligence layer on top of SAP Business One data."
+  },
+  {
+    "slug": "leoedge-dashboard",
+    "name": "LeoEdge Dashboard",
+    "category": "Enterprise",
+    "label": "Selected work",
+    "subtitle": "Corporate HR & Operations",
+    "cardDescription": "A full-stack operations and HR portal for tracking employee attendance, automated payroll deductions, and administrative reporting.",
+    "heroDescription": "A full-stack operations and HR portal for attendance tracking, payroll deductions, and administrative reporting.",
+    "image": "/leoedge.png",
+    "techStack": ["Next.js", "Tailwind CSS", "MongoDB", "Express"],
+    "tags": ["Attendance", "Payroll", "Admin reporting"],
+    "overview": "LeoEdge Dashboard is a corporate HR and operations portal for attendance, payroll-related automation, and admin reporting.",
+    "challenge": "HR and operations teams needed a centralized portal for attendance tracking, payroll deductions, and administrative reporting.",
+    "solution": "Built a full-stack portal with attendance workflows, automated payroll deductions, and admin reporting views.",
+    "features": [
+      {
+        "title": "Attendance tracking",
+        "description": "Track employee attendance in a centralized operations portal."
+      },
+      {
+        "title": "Payroll deductions",
+        "description": "Automate payroll-related deductions to reduce manual admin work."
+      },
+      {
+        "title": "Administrative reporting",
+        "description": "Provide reporting views for HR and operations decision-makers."
+      }
+    ],
+    "outcome": "Delivered a practical HR and operations portal for attendance, payroll support, and reporting."
+  },
+  {
+    "slug": "hyperblock-studio",
+    "name": "HyperBlock Studio",
+    "category": "Studio",
+    "label": "Selected work",
+    "subtitle": "Creative Tech & Web Platform",
+    "cardDescription": "A modern, dynamic web platform with rich interactive animations, API-driven project showcases, and responsive UI architecture.",
+    "heroDescription": "A modern web platform with interactive animations, API-driven project showcases, and responsive UI architecture.",
+    "image": "/hyperblock.jpg",
+    "techStack": ["Next.js", "Tailwind CSS", "Framer Motion", "REST APIs"],
+    "tags": ["Animations", "Showcases", "Responsive UI"],
+    "overview": "HyperBlock Studio is a creative web platform focused on interactive presentation and API-driven project showcases.",
+    "challenge": "The studio needed a visually strong web platform that could showcase projects dynamically without feeling static or outdated.",
+    "solution": "Built a responsive Next.js platform with Framer Motion interactions and API-driven showcase content.",
+    "features": [
+      {
+        "title": "Interactive animations",
+        "description": "Motion-driven UI that adds presence without cluttering the content."
+      },
+      {
+        "title": "API-driven showcases",
+        "description": "Project content loaded dynamically for easier updates."
+      },
+      {
+        "title": "Responsive architecture",
+        "description": "A layout system that stays usable across devices."
+      }
+    ],
+    "outcome": "A modern creative platform for presenting projects with motion and dynamic content."
+  },
+  {
+    "slug": "grabzer",
+    "name": "Grabzer",
+    "category": "Consumer",
+    "label": "Selected work",
+    "subtitle": "Consumer Web Application",
+    "cardDescription": "A multilingual web application with dynamic API data handling, token-based authentication, global state management, and pagination.",
+    "heroDescription": "A multilingual consumer web application with authentication, API-driven data, and pagination.",
+    "image": "/grabzer.jpg",
+    "techStack": ["Next.js", "Tailwind CSS", "i18n", "REST APIs"],
+    "tags": ["Multilingual", "Auth", "Pagination"],
+    "overview": "Grabzer is a consumer-facing web application with multilingual support, token-based authentication, and API-driven content.",
+    "challenge": "The product needed multilingual UX, secure authentication, and scalable API-driven content handling.",
+    "solution": "Implemented a Next.js application with i18n, token-based auth, global state handling, and paginated API data views.",
+    "features": [
+      {
+        "title": "Multilingual experience",
+        "description": "Localized interfaces for broader consumer reach."
+      },
+      {
+        "title": "Token-based authentication",
+        "description": "Secure account access with token handling."
+      },
+      {
+        "title": "Paginated API data",
+        "description": "Efficient data browsing with pagination and dynamic API handling."
+      }
+    ],
+    "outcome": "A scalable consumer web application foundation with auth, localization, and API-driven browsing."
+  },
+  {
+    "slug": "grabzer-admin",
+    "name": "Grabzer Admin Dashboard",
+    "category": "Admin",
+    "label": "Selected work",
+    "subtitle": "Admin Operations Dashboard",
+    "cardDescription": "A secure admin dashboard featuring JWT authentication, global state handling, protected routes, and data management console.",
+    "heroDescription": "A secure admin dashboard with JWT authentication, protected routes, and a data management console.",
+    "image": "/grabzer-dashboard.jpg",
+    "techStack": ["Next.js", "Tailwind CSS", "JWT Auth", "REST APIs"],
+    "tags": ["JWT", "Protected routes", "Data console"],
+    "overview": "Grabzer Admin Dashboard provides secure operational controls for managing application data and protected admin workflows.",
+    "challenge": "Operators needed a secure console for managing data with clear access control and protected routes.",
+    "solution": "Built an admin dashboard with JWT authentication, protected routes, global state handling, and data management views.",
+    "features": [
+      {
+        "title": "JWT authentication",
+        "description": "Secure sign-in for admin users."
+      },
+      {
+        "title": "Protected routes",
+        "description": "Restrict admin areas to authorized users only."
+      },
+      {
+        "title": "Data management console",
+        "description": "Operational views for managing application data."
+      }
+    ],
+    "outcome": "Delivered a secure admin console for day-to-day application operations."
+  },
+  {
+    "slug": "seven-koncepts",
+    "name": "Seven Koncepts",
+    "category": "Corporate",
+    "label": "Selected work",
+    "subtitle": "Corporate profile website",
+    "cardDescription": "A corporate profile website with dynamic API data, interactive showcase sliders, and a responsive component-based UI.",
+    "heroDescription": "A corporate profile website with dynamic API data, interactive showcase sliders, and a responsive component-based UI.",
+    "image": "/sk.jpg",
+    "techStack": ["Next.js", "React", "REST APIs"],
+    "tags": ["Corporate", "Showcase", "Responsive"],
+    "overview": "Seven Koncepts is a corporate profile website designed to present company information and project showcases clearly.",
+    "challenge": "The company needed a modern profile site with dynamic content and interactive showcases.",
+    "solution": "Built a responsive component-based website with API-driven content and interactive sliders.",
+    "features": [
+      {
+        "title": "Dynamic API content",
+        "description": "Company and showcase content loaded dynamically."
+      },
+      {
+        "title": "Interactive sliders",
+        "description": "Showcase sections that present projects and highlights clearly."
+      },
+      {
+        "title": "Responsive UI",
+        "description": "A component-based layout that works across screen sizes."
+      }
+    ],
+    "outcome": "A polished corporate website for brand presentation and project showcasing."
+  },
+  {
+    "slug": "bombay-fifty",
+    "name": "Bombay Fifty",
+    "category": "Hospitality",
+    "label": "Selected work",
+    "subtitle": "Restaurant website",
+    "cardDescription": "A restaurant website with API-driven menu management, responsive culinary presentation, and seamless customer interaction.",
+    "heroDescription": "A restaurant website with API-driven menu management and responsive culinary presentation.",
+    "image": "/bombay-fifty.webp",
+    "techStack": ["Next.js", "React", "REST APIs"],
+    "tags": ["Menu", "Hospitality", "Responsive"],
+    "overview": "Bombay Fifty is a hospitality website focused on menu presentation and customer-facing restaurant content.",
+    "challenge": "The restaurant needed a visually strong website with manageable menu content and clear customer interaction points.",
+    "solution": "Built a responsive restaurant site with API-driven menu management and culinary presentation.",
+    "features": [
+      {
+        "title": "API-driven menus",
+        "description": "Menu content that can be updated through backend data."
+      },
+      {
+        "title": "Culinary presentation",
+        "description": "Visual layout designed for food and hospitality branding."
+      },
+      {
+        "title": "Customer interaction",
+        "description": "Clear paths for visitors to explore the restaurant offering."
+      }
+    ],
+    "outcome": "A hospitality website that presents menus and brand experience clearly."
+  },
+  {
+    "slug": "lb908-dashboard",
+    "name": "LB908 Dashboard",
+    "category": "Network",
+    "label": "Selected work",
+    "subtitle": "Business promotion network",
+    "cardDescription": "A business promotion network and dashboard with API-based listings, shout-out features, user accounts, and profile management.",
+    "heroDescription": "A business promotion network and dashboard with listings, shout-outs, accounts, and profile management.",
+    "image": "/Lb908.jpg",
+    "techStack": ["React", "Node.js", "REST APIs"],
+    "tags": ["Listings", "Accounts", "Profiles"],
+    "overview": "LB908 Dashboard supports a business promotion network with listings, shout-out features, and user profile management.",
+    "challenge": "The network needed a dashboard for listings, promotions, accounts, and profile management in one place.",
+    "solution": "Built an API-driven dashboard with listings, shout-out features, user accounts, and profile management.",
+    "features": [
+      {
+        "title": "API-based listings",
+        "description": "Manage and browse business listings from a shared dashboard."
+      },
+      {
+        "title": "Shout-out features",
+        "description": "Promotion tools for highlighting businesses and activity."
+      },
+      {
+        "title": "Accounts and profiles",
+        "description": "User accounts with profile management for network participants."
+      }
+    ],
+    "outcome": "A practical network dashboard for listings, promotions, and profile management."
+  }
+]

@@ -2,98 +2,59 @@
 import React from "react";
 import { HiSparkles } from "react-icons/hi2";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import Link from "next/link";
 
 const Hero = () => {
   return (
     <div className="relative min-h-[100vh] overflow-hidden">
-      {/* Background video animation */}
-      <motion.div
-        initial={{ y: -600 }}
-        animate={{ y: 0 }}
-        transition={{ duration: 1, ease: "easeOut" }}
-        className="absolute inset-0 w-full z-[-10] top-[-380px] lg:top-[-550px]"
-      >
+      <div className="absolute inset-0 w-full z-[-10] top-[-380px] lg:top-[-550px] animate-hero-video">
         <video
           src="/blackhole.webm"
           autoPlay
           loop
           muted
           playsInline
+          preload="metadata"
           className="h-[900px] w-full lg:h-full object-cover"
         />
-      </motion.div>
+      </div>
 
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 container mx-auto min-h-[100vh] items-center lg:px-12">
-        {/* Left Column */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="py-12 lg:py-0"
-        >
+        <div className="py-12 lg:py-0">
           <div className="flex justify-center lg:justify-start">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              className="flex text-white items-center mt-24 lg:mt-0 gap-2 py-2 h-9 w-[280px] rounded-3xl px-4 bg-black/60"
-            >
+            <div className="flex text-white items-center mt-24 lg:mt-0 gap-2 py-2 h-9 w-[280px] rounded-3xl px-4 bg-black/60">
               <HiSparkles className="text-[#b49bff]" />
               <p>Full Stack Developer Portfolio</p>
-            </motion.div>
+            </div>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
-            className="text-4xl mt-8"
-          >
+          <div className="text-4xl mt-8">
             <h1 className="text-white text-center lg:text-start font-bold uppercase">
               Providing{" "}
-              <span className=" gradient-text font-bold">the best</span>
+              <span className="gradient-text font-bold">the best</span>
             </h1>
-
             <h1 className="text-white mt-3 text-center lg:text-start font-bold uppercase">
               project experiences
             </h1>
-          </motion.div>
+          </div>
 
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 1 }}
-            className="text-md mt-8 text-center lg:text-start p-3 lg:p-0"
-          >
+          <p className="text-md mt-8 text-center lg:text-start p-3 lg:p-0">
             Full-Stack MERN & Next.js Developer | React.js, Node.js, MongoDB{" "}
             <br /> Creating High-Performance Web Applications
-          </motion.p>
+          </p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 1.2 }}
-            className="flex justify-center lg:justify-start mt-8 "
-          >
+          <div className="flex justify-center lg:justify-start mt-8">
             <Link
               href="/cv.pdf"
               download="My_CV.pdf"
-              className="px-4 py-3 hover-scale gradient-bg rounded-lg hover:bg-[#7264b7] transition duration-300 inline-block text-center"
+              className="px-4 py-3 hover-scale gradient-bg rounded-lg transition duration-150 inline-block text-center"
             >
               Download CV
             </Link>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
 
-        {/* Right Column Image */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1 }}
-          className="flex justify-center mt-12 lg:mt-0"
-        >
+        <div className="flex justify-center mt-12 lg:mt-0">
           <Image
             src="/mainIconsdark.svg"
             alt="Hero Image"
@@ -101,7 +62,7 @@ const Hero = () => {
             height={500}
             priority
           />
-        </motion.div>
+        </div>
       </div>
     </div>
   );

@@ -1,325 +1,337 @@
 "use client";
 
 import React from "react";
-import { motion } from "framer-motion";
+import Link from "next/link";
+import Experience from "@/app/components/experience.jsx";
+import { FaWhatsapp, FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
-// Animation variants
-const fadeInUp = {
-  hidden: { opacity: 0, y: 50 },
-  visible: { 
-    opacity: 1, 
-    y: 0,
-    transition: { 
-      duration: 0.6,
-      ease: "easeOut"
-    }
-  }
-};
+const skillGroups = [
+  {
+    title: "Frontend Technologies",
+    items: [
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Vite",
+      "Responsive Design",
+      "HTML5",
+      "CSS3",
+    ],
+  },
+  {
+    title: "Backend & Database",
+    items: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT Authentication",
+      "RBAC",
+      "MySQL",
+      "SQL Server (MSSQL)",
+      "MongoDB",
+    ],
+  },
+  {
+    title: "Enterprise Systems",
+    items: [
+      "SAP Business One Integration",
+      "ERP",
+      "Warehouse Management System (WMS)",
+      "CRM",
+    ],
+  },
+  {
+    title: "Languages",
+    items: ["JavaScript", "Python", "Java", "C++", "C", "SQL"],
+  },
+  {
+    title: "Practices",
+    items: [
+      "Agile Sprints",
+      "Unit Testing",
+      "Requirements Gathering",
+      "Production Support",
+      "Audit Logging",
+    ],
+  },
+];
 
-const container = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1
-    }
-  }
-};
+const featuredProjects = [
+  {
+    title: "Digital Office Management Engine (Enterprise ERP)",
+    stack: "React.js, Node.js, MySQL",
+    description:
+      "A centralized ERP platform for Visole employees with modules for Business, Supply Chain, Inventory, HR, Recruitment, CRM Funnel and Travel & Visit Reporting. It includes sales and inventory dashboards, a Sales Forecast Dashboard for demand planning, complete recruitment and HR workflows, and automated CV parsing that auto-fills application fields to reduce manual data entry.",
+  },
+  {
+    title: "Warehouse & Production Management System",
+    stack:
+      "React.js, Vite, Tailwind CSS, Node.js, Express.js, SQL Server, SAP Business One",
+    description:
+      "An enterprise WMS integrated with SAP Business One covering inventory, goods receipt/issue, GRN, purchasing, transfers, dispatch tracking with Proof of Delivery, and production monitoring. It features analytics dashboards (inventory aging, stock health and risk, machine efficiency, production cost analysis), role and permission-based access control, and centralized audit logging.",
+  },
+  {
+    title: "Matrix (Mobile & Web Application)",
+    stack: "Field service · Mobile & Web",
+    description:
+      "A platform to track daily activities, service visits and company instrument assets of field engineers. Mobile workflows capture visit reports with live location to validate visits, advance service tickets record planned activities, and a web module lets managers monitor performance, reports and assets.",
+  },
+  {
+    title: "Nexify HR (SaaS Platform)",
+    stack: "SaaS · HR Automation",
+    description:
+      "An end-to-end SaaS application that automates core HR workflows, including CV parsing, interview scheduling with calendar availability and automated reminders, performance tracking and analytics dashboards, and employee wellness.",
+  },
+  {
+    title: "Advanced Billing System",
+    stack: "Java, Java Swing",
+    description:
+      "A city-wide electricity billing system that automates bill calculation and tracks usage and previous bills, with an interactive GUI, file-based record storage and input validation to protect data integrity.",
+  },
+];
+
+const achievements = [
+  {
+    title: "Management Team Lead",
+    description:
+      "Certificate for exemplary leadership at Career Expo COMSATS (2022/23).",
+  },
+  {
+    title: "Marketing Head",
+    description:
+      "Badge for outstanding contributions as Marketing Head of the CSS Society, COMSATS.",
+  },
+  {
+    title: "Runner-Up",
+    description:
+      "Second place in the Robo CI Competition organized by IEEE (2022).",
+  },
+];
 
 const AboutMe = () => {
   return (
     <div className="container mx-auto text-gray-100 mt-20">
-      {/* Hero Section */}
       <div className="mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <motion.div 
-            className="relative inline-block mb-6"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeInUp}
-          >
+          <div className="relative inline-block mb-6">
             <div className="absolute -inset-1 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full blur opacity-75"></div>
             <div className="relative bg-gray-900 border border-gray-800 rounded-full p-2">
               <div className="bg-gray-800 rounded-full p-3">
                 <div className="bg-gradient-to-br from-indigo-500 to-purple-600 w-24 h-24 rounded-full mx-auto flex items-center justify-center">
-                  <span className="text-4xl font-bold">MP</span>
+                  <span className="text-3xl font-bold">HA</span>
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
 
-          <motion.h1 
-            className="text-4xl md:text-5xl font-bold mb-4"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeInUp}
-          >
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-clip-text text-transparent gradient-text">
-              Muhammad Pervaiz
+              Muhammad Hamad Ahmad
             </span>
-          </motion.h1>
-          
-          <motion.p 
-            className="text-xl text-gray-300 max-w-2xl mx-auto"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeInUp}
-          >
-            Full-Stack MERN &amp; Next.js Developer | React Specialist | Gold Medalist
-          </motion.p>
+          </h1>
 
-          <motion.div 
-            className="flex flex-wrap justify-center gap-4 mt-6"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={container}
-          >
-            <motion.a
-              href="https://wa.me/+923431157074"
-              className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition-all flex items-center gap-2"
-              variants={fadeInUp}
-            >
-              <span>WhatsApp</span>
-            </motion.a>
-            <motion.a
-              href="https://linkedin.com/in/pervaiz1250/"
+          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">
+            Full Stack Developer | React &amp; Node.js Specialist | Enterprise
+            ERP &amp; WMS Systems
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-3 mt-6">
+            <a
+              href="https://wa.me/"
               target="_blank"
-              className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition-all flex items-center gap-2"
-              variants={fadeInUp}
+              rel="noreferrer"
+              className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors flex items-center gap-2 text-sm"
             >
-              <span>LinkedIn</span>
-            </motion.a>
-            <motion.a
-              href="https://github.com/pervaizdev"
-              className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition-all flex items-center gap-2"
-              variants={fadeInUp}
+              <FaWhatsapp className="text-cyan-400" />
+              WhatsApp
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors flex items-center gap-2 text-sm"
             >
-              <span>GitHub</span>
-            </motion.a>
-          </motion.div>
+              <FaLinkedin className="text-cyan-400" />
+              LinkedIn
+            </a>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors flex items-center gap-2 text-sm"
+            >
+              <FaGithub className="text-cyan-400" />
+              GitHub
+            </a>
+            <a
+              href="mailto:hamad1919ahmad@gmail.com"
+              className="px-4 py-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition-colors flex items-center gap-2 text-sm"
+            >
+              <FaEnvelope className="text-cyan-400" />
+              hamad1919ahmad@gmail.com
+            </a>
+          </div>
         </div>
 
-        {/* Main Content */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* About Me Section */}
-          <motion.section 
-            className="lg:col-span-2 bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-6 shadow-xl"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeInUp}
-          >
-            <motion.h2 
-              className="text-3xl font-bold mb-6 flex items-center gap-3"
-              variants={fadeInUp}
-            >
+          <section className="lg:col-span-2 bg-gray-800/50 border border-gray-700 rounded-2xl p-6 shadow-xl">
+            <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
               <div className="w-2 h-8 gradient-bg rounded-full"></div>
-              <p className="gradient-text">About Me</p>
-            </motion.h2>
+              <span className="gradient-text">About Me</span>
+            </h2>
 
-            <motion.div 
-              className="space-y-4 text-gray-300"
-              variants={container}
-            >
-              <motion.p variants={fadeInUp}>
-                Hi, I&apos;m <span className="font-semibold text-indigo-300">Muhammad Pervaiz</span>, a <span className="font-semibold text-indigo-300">full-stack MERN and Next.js developer</span> who loves building end-to-end web applications — from clean, modern UIs to secure, scalable backends with Node.js, Express, and MongoDB.
-              </motion.p>
+            <div className="space-y-4 text-gray-300">
+              <p>
+                Hi, I&apos;m{" "}
+                <span className="font-semibold text-indigo-300">
+                  Muhammad Hamad Ahmad
+                </span>
+                , a Full Stack Developer from Islamabad who loves building
+                software that real teams use every day, from clean, responsive
+                interfaces to secure, scalable backends with Node.js, Express.js
+                and SQL.
+              </p>
+              <p>
+                At{" "}
+                <span className="font-semibold text-indigo-300">
+                  Visole Group of Companies
+                </span>
+                , I develop and maintain customized enterprise solutions,
+                including the{" "}
+                <span className="font-semibold text-indigo-300">
+                  Digital Office Management Engine
+                </span>
+                , an ERP platform used across sales, inventory, HR and
+                recruitment. I also work on a Warehouse and Production
+                Management System integrated with SAP Business One. I work
+                directly with core management to gather requirements and turn
+                them into production-ready software.
+              </p>
+              <p>
+                My projects range from ERP and warehouse systems to HR and CRM
+                platforms, a field-engineer tracking app and a SaaS HR product.
+                I regularly use REST APIs, JWT authentication, role-based access
+                control and audit logging to deliver complete, secure solutions.
+              </p>
+              <p>
+                Earlier in my journey, I built live client applications at{" "}
+                <span className="font-semibold text-indigo-300">
+                  Octaloop Technologies
+                </span>{" "}
+                with React.js, Next.js, Node.js and MongoDB, and started as a
+                Front-End Developer Intern at Prodigy InfoTech. Beyond coding,
+                I&apos;ve led teams at university as Management Team Lead and
+                Marketing Head of the CSS Society, and I was runner-up in the
+                Robo CI Competition organized by IEEE.
+              </p>
+            </div>
+          </section>
 
-              <motion.p variants={fadeInUp}>
-                At <span className="font-semibold text-indigo-300">SevenKoncepts</span>, I work on <span className="font-semibold text-indigo-300">production-ready client projects</span>, including e-commerce platforms, admin dashboards, and business websites. I focus on building <span className="font-semibold text-indigo-300">responsive Next.js frontends</span> and integrating them with REST APIs, authentication systems, and third-party services.
-              </motion.p>
-
-              <motion.p variants={fadeInUp}>
-                My projects range from healthcare platforms and company portfolios to restaurant sites, CRMs, and dashboards. I frequently use <span className="font-semibold text-indigo-300">JWT-based authentication, protected routes, and role-based dashboards</span> to deliver complete full-stack solutions.
-              </motion.p>
-
-              <motion.p variants={fadeInUp}>
-                Earlier in my journey, I also explored <span className="font-semibold text-indigo-300">Flutter</span> and cross-platform app development, which helped me think in terms of reusable components and clean architecture. Beyond coding, I&apos;ve taught Android development to over 50 students, led video editing teams, and earned a <span className="font-semibold text-amber-300">Gold Medal</span> for my Final Year Project, &quot;Green Zone Monitor,&quot; at NUTECH University.
-              </motion.p>
-            </motion.div>
-          </motion.section>
-
-          {/* Skills Highlights */}
-          <motion.section 
-            className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-6 shadow-xl"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeInUp}
-          >
-            <motion.h2 
-              className="text-3xl font-bold mb-6 flex items-center gap-3"
-              variants={fadeInUp}
-            >
+          <section className="bg-gray-800/50 border border-gray-700 rounded-2xl p-6 shadow-xl">
+            <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
               <div className="w-2 h-8 gradient-bg rounded-full"></div>
-              <p className="gradient-text">Core Skills</p>
-            </motion.h2>
+              <span className="gradient-text">Education</span>
+            </h2>
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-xl font-bold">
+                  COMSATS University Islamabad
+                </h3>
+                <p className="text-cyan-300">
+                  Bachelor of Science in Computer Science (BS-CS)
+                </p>
+                <p className="text-gray-400">
+                  2021 – 2026 | Islamabad, Pakistan
+                </p>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold">GPGC Muzaffargarh</h3>
+                <p className="text-cyan-300">
+                  Intermediate in Computer Science (ICS)
+                </p>
+                <p className="text-gray-400">
+                  2019 – 2021 | Muzaffargarh, Pakistan
+                </p>
+              </div>
+            </div>
+          </section>
 
-            <motion.div 
-              className="space-y-6"
-              variants={container}
-            >
-              <motion.div variants={fadeInUp}>
-                <h3 className="text-lg font-semibold gradient-text mb-2">Frontend Technologies</h3>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">React.js</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Next.js</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Tailwind CSS</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Bootstrap</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Framer Motion</span>
+          <section className="lg:col-span-3 bg-gray-800/50 border border-gray-700 rounded-2xl p-6 shadow-xl">
+            <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
+              <div className="w-2 h-8 gradient-bg rounded-full"></div>
+              <span className="gradient-text">Core Skills</span>
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+              {skillGroups.map((group) => (
+                <div key={group.title}>
+                  <h3 className="text-lg font-semibold gradient-text mb-3">
+                    {group.title}
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {group.items.map((item) => (
+                      <span
+                        key={item}
+                        className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full text-sm"
+                      >
+                        {item}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-              </motion.div>
-
-              <motion.div variants={fadeInUp}>
-                <h3 className="text-lg font-semibold gradient-text mb-2">Backend &amp; Database</h3>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Node.js</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Express.js</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">MongoDB</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">REST APIs</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">JWT Auth</span>
-                </div>
-              </motion.div>
-
-              <motion.div variants={fadeInUp}>
-                <h3 className="text-lg font-semibold gradient-text mb-2">Additional Expertise</h3>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">API Integration</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Context API</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Responsive Design</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Swiper.js</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Strapi</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Flutter</span>
-                  <span className="px-3 py-1 bg-indigo-900/50 text-indigo-200 rounded-full">Dart</span>
-                </div>
-              </motion.div>
-            </motion.div>
-          </motion.section>
-
-          {/* Education */}
-          <motion.section 
-            className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-6 shadow-xl"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeInUp}
-          >
-            <motion.h2 
-              className="text-3xl font-bold mb-6 flex items-center gap-3"
-              variants={fadeInUp}
-            >
-              <div className="w-2 h-8 gradient-bg rounded-full"></div>
-              <p className="gradient-text">Education</p>
-            </motion.h2>
-
-            <motion.div 
-              className="space-y-8"
-              variants={container}
-            >
-              <motion.div variants={fadeInUp}>
-                <h3 className="text-xl font-bold">National University of Technology (NUTECH)</h3>
-                <p className="text-cyan-300">Bachelor of Science in Computer Science</p>
-                <p className="text-gray-400">2020-2024 | Islamabad, Pakistan</p>
-                <p className="mt-2 text-amber-300 font-semibold">Gold Medalist</p>
-              </motion.div>
-
-              <motion.div variants={fadeInUp}>
-                <h3 className="text-xl font-bold">Cadet College Skardu</h3>
-                <p className="text-cyan-300">Matriculation and FSc</p>
-                <p className="text-gray-400">2014-2019 | Skardu, Pakistan</p>
-              </motion.div>
-            </motion.div>
-          </motion.section>
-
-          {/* Experience */}
-          <motion.section 
-            className="lg:col-span-2 bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-2xl p-6 shadow-xl"
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
-            variants={fadeInUp}
-          >
-            <motion.h2 
-              className="text-3xl font-bold mb-6 flex items-center gap-3"
-              variants={fadeInUp}
-            >
-              <div className="w-2 h-8 gradient-bg rounded-full"></div>
-              <p className="gradient-text">Professional Experience</p>
-            </motion.h2>
-
-            <motion.div 
-              className="space-y-8"
-              variants={container}
-            >
-              <motion.div variants={fadeInUp}>
-                <h3 className="text-xl font-bold">Web Developer (Full-Stack)</h3>
-                <p className="text-amber-300">SevenKoncepts | Sep 2024 - Present</p>
-                <ul className="mt-3 space-y-2 text-gray-300 list-disc list-inside">
-                  <li>Build and maintain full-stack applications using Next.js, Node.js, Express, and MongoDB</li>
-                  <li>Develop responsive, SEO-friendly UIs and integrate them with REST APIs and third-party services</li>
-                  <li>Implement JWT-based authentication, protected routes, and admin dashboards for client projects</li>
-                  <li>Collaborate with designers and backend teams to ship production-ready features on time</li>
-                </ul>
-              </motion.div>
-
-              <motion.div variants={fadeInUp}>
-                <h3 className="text-xl font-bold">Flutter Developer Intern</h3>
-                <p className="text-amber-300">Internship Pakistan</p>
-                <ul className="mt-3 space-y-2 text-gray-300 list-disc list-inside">
-                  <li>Gained remote experience in cross-platform mobile application development using Flutter and Dart</li>
-                  <li>Contributed to multiple project deliverables and feature implementations during the internship</li>
-                  <li>Collaborated with team members to design and optimize user-friendly mobile app interfaces</li>
-                </ul>
-              </motion.div>
-            </motion.div>
-          </motion.section>
+              ))}
+            </div>
+          </section>
         </div>
 
-        {/* Achievements */}
-        <motion.section 
-          className="mt-16 bg-gradient-to-r from-indigo-900/30 to-purple-900/30 border border-indigo-500/30 rounded-2xl p-8"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
-          variants={fadeInUp}
-        >
-          <motion.h2 
-            className="text-3xl font-bold mb-8 text-center"
-            variants={fadeInUp}
-          >
+        <section className="mt-12 bg-gray-800/50 border border-gray-700 rounded-2xl p-6 shadow-xl">
+          <h2 className="text-3xl font-bold mb-6 flex items-center gap-3">
+            <div className="w-2 h-8 gradient-bg rounded-full"></div>
+            <span className="gradient-text">Featured Projects</span>
+          </h2>
+          <div className="space-y-6">
+            {featuredProjects.map((project) => (
+              <div
+                key={project.title}
+                className="bg-gray-900/60 border border-gray-700 rounded-xl p-5"
+              >
+                <h3 className="text-xl font-bold text-white">{project.title}</h3>
+                <p className="text-cyan-400 text-sm mt-1">{project.stack}</p>
+                <p className="text-gray-300 mt-3 leading-relaxed">
+                  {project.description}
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6">
+            <Link
+              href="/work"
+              prefetch
+              className="inline-flex items-center hover-scale gradient-bg text-white font-medium text-sm rounded-lg px-5 py-2.5"
+            >
+              View full work portfolio
+            </Link>
+          </div>
+        </section>
+
+        <section className="mt-12 bg-gradient-to-r from-indigo-900/30 to-purple-900/30 border border-indigo-500/30 rounded-2xl p-8">
+          <h2 className="text-3xl font-bold mb-8 text-center gradient-text">
             Key Achievements
-          </motion.h2>
-
-          <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 gap-6"
-            variants={container}
-          >
-            <motion.div 
-              className="bg-gray-800/50 p-6 rounded-xl border border-indigo-500/30"
-              variants={fadeInUp}
-            >
-              <h3 className="text-xl font-bold mb-2">Gold Medalist</h3>
-              <p className="text-gray-300">
-                Awarded Gold Medal for Final Year Project &quot;Green Zone Monitor&quot; at NUTECH University - a WEBGIS portal for land use analysis processing over 1,000 images monthly.
-              </p>
-            </motion.div>
-
-            <motion.div 
-              className="bg-gray-800/50 p-6 rounded-xl border border-indigo-500/30"
-              variants={fadeInUp}
-            >
-              <h3 className="text-xl font-bold mb-2">App Development Lead</h3>
-              <p className="text-gray-300">
-                As App Development Lead at GDSC NUTECH, taught Android development to 50+ students and led initiatives resulting in 10+ completed projects.
-              </p>
-            </motion.div>
-          </motion.div>
-        </motion.section>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {achievements.map((item) => (
+              <div
+                key={item.title}
+                className="bg-gray-800/50 p-6 rounded-xl border border-indigo-500/30"
+              >
+                <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                <p className="text-gray-300">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </section>
       </div>
+
+      <Experience />
     </div>
   );
 };

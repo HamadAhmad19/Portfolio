@@ -1,0 +1,36 @@
+{
+  "featured": {
+    "name": "DOME",
+    "category": "Enterprise",
+    "label": "Internal product",
+    "description": "Operations workflows, permissions, audit trails, and reporting in one system.",
+    "image": "/Projects/Dome/DOME%20Log%20in%20page.png",
+    "techStack": ["React", "Node.js", "SQL Server"]
+  },
+  "sideProjects": [
+    {
+      "name": "GlucoTrack",
+      "category": "Healthcare",
+      "label": "Healthcare",
+      "description": "Mobile glucose monitoring with sensor pairing and clinical records.",
+      "image": "/Projects/CGM/0f73c824-3d1f-4705-8155-4f50d6b5fea2.png",
+      "techStack": [".NET MAUI", "ASP.NET", "BLE"]
+    },
+    {
+      "name": "Matrix",
+      "category": "Field service",
+      "label": "Mobile",
+      "description": "Field service app for jobs, tracking, and equipment checks.",
+      "image": "/Projects/Matrix%20Web/dkfujz8bzroxm1afh6qy.avif",
+      "techStack": ["React Native", "Offline Sync"]
+    },
+    {
+      "name": "WPS",
+      "category": "Operations",
+      "label": "Operations",
+      "description": "Warehouse production workflows with scanning and reporting.",
+      "image": "/Projects/Warehouse%20production/zxsugxofqpnhmjjtwbom.avif",
+      "techStack": ["SAP B1", "Automation"]
+    }
+  ]
+}

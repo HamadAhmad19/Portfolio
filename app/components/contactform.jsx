@@ -1,59 +1,26 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
 import Link from "next/link";
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 40 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6, // slower
-      ease: "easeOut",
-    },
-  },
-};
 
 const ContactForm = () => {
   return (
     <div className="container mx-auto p-4" id="contact">
-      <motion.div
-        className="grid lg:grid-cols-2 items-start gap-12 p-8 mx-auto border border-gray-600 [box-shadow:0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.2 }}
-      >
-        {/* Left Side */}
+      <div className="grid lg:grid-cols-2 items-start gap-12 p-8 mx-auto border border-gray-600 [box-shadow:0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md">
         <div>
-          <motion.h2
-            variants={fadeUp}
-            className="text-white text-3xl font-bold gradient-text"
-          >
+          <h2 className="text-white text-3xl font-bold gradient-text">
             Lets Talk
-          </motion.h2>
+          </h2>
 
-          <motion.p
-            variants={fadeUp}
-            className="text-[15px] text-white mt-4 leading-relaxed"
-          >
+          <p className="text-[15px] text-white mt-4 leading-relaxed">
             Have some big idea or brand to develop and need help? Then reach out
             we would love to hear about your project and provide help.
-          </motion.p>
+          </p>
 
-          {/* Email */}
-          <motion.div variants={fadeUp} className="mt-12">
-            <motion.h2
-              variants={fadeUp}
-              className="text-white text-base font-semibold"
-            >
-              Email
-            </motion.h2>
-
-            <motion.ul variants={fadeUp} className="mt-4">
-              <motion.li variants={fadeUp} className="flex items-center">
+          <div className="mt-12">
+            <h2 className="text-white text-base font-semibold">Email</h2>
+            <ul className="mt-4">
+              <li className="flex items-center">
                 <div className="gradient-bg h-10 w-10 rounded-full flex items-center justify-center shrink-0">
-                  {/* Email Icon */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20px"
@@ -65,37 +32,29 @@ const ContactForm = () => {
                   </svg>
                 </div>
                 <a
-                  href="mailto:pervaizdev01@gmail.com"
+                  href="mailto:hamad1919ahmad@gmail.com"
                   className="text-sm ml-4 py-2"
                 >
                   <small className="block text-white">Mail</small>
                   <span className="gradient-text font-medium">
-                    pervaizdev01@gmail.com
+                    hamad1919ahmad@gmail.com
                   </span>
                 </a>
-              </motion.li>
-            </motion.ul>
-          </motion.div>
+              </li>
+            </ul>
+          </div>
 
-          {/* Socials */}
-          <motion.div variants={fadeUp} className="mt-12">
-            <motion.h2
-              variants={fadeUp}
-              className="text-white text-base font-semibold"
-            >
-              Socials
-            </motion.h2>
-
+          <div className="mt-12">
+            <h2 className="text-white text-base font-semibold">Socials</h2>
             <ul className="flex mt-4 space-x-4">
               <li className="gradient-bg h-10 w-10 rounded-full flex items-center justify-center shrink-0 hover-scales">
-                <Link href="https://github.com/pervaizdev" target="_blank">
+                <Link href="https://github.com/" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20px"
                     height="20px"
                     fill="#000"
                     viewBox="0 0 24 24"
-                   
                   >
                     <path
                       d="M12 0C5.37 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.387.6.113.793-.26.793-.577 0-.285-.01-1.04-.016-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.085 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.305 3.492.998.107-.775.418-1.306.76-1.607-2.665-.305-5.466-1.332-5.466-5.931 0-1.31.468-2.382 1.235-3.222-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.47 11.47 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.29-1.552 3.296-1.23 3.296-1.23.653 1.653.242 2.873.118 3.176.77.84 1.233 1.912 1.233 3.222 0 4.61-2.804 5.624-5.475 5.921.43.372.823 1.102.823 2.222 0 1.606-.014 2.896-.014 3.287 0 .32.19.694.8.576C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z"
@@ -105,10 +64,7 @@ const ContactForm = () => {
                 </Link>
               </li>
               <li className="gradient-bg h-10 w-10 rounded-full flex items-center justify-center shrink-0 hover-scales">
-                <Link
-                  href="https://www.linkedin.com/in/pervaiz1250/"
-                  target="_blank"
-                >
+                <Link href="https://www.linkedin.com/" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20px"
@@ -124,10 +80,7 @@ const ContactForm = () => {
                 </Link>
               </li>
               <li className="gradient-bg h-10 w-10 rounded-full flex items-center justify-center shrink-0 hover-scales">
-                <Link
-                  href="https://www.instagram.com/mr_pallu_1250/"
-                  target="_blank"
-                >
+                <Link href="https://wa.me/" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20px"
@@ -143,52 +96,43 @@ const ContactForm = () => {
                 </Link>
               </li>
             </ul>
-          </motion.div>
+          </div>
         </div>
 
-        {/* Right Side Form */}
-        <motion.form
-          className="space-y-4"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-          transition={{ staggerChildren: 0.2 }}
-        >
-          <motion.input
-            variants={fadeUp}
+        <form className="space-y-4">
+          <input
             type="text"
             placeholder="Name"
             className="w-full text-slate-900 rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-0 focus:border-blue-500"
           />
-          <motion.input
-            variants={fadeUp}
+          <input
             type="email"
             placeholder="Email"
             className="w-full text-slate-900 rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-0 focus:border-blue-500"
           />
-          <motion.input
-            variants={fadeUp}
+          <input
             type="text"
             placeholder="Subject"
             className="w-full text-slate-900 rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-0 focus:border-blue-500"
           />
-          <motion.textarea
-            variants={fadeUp}
+          <textarea
             placeholder="Message"
             rows="6"
             className="w-full text-slate-900 rounded-md px-4 border border-gray-300 text-sm pt-2.5 outline-0 focus:border-blue-500"
-          ></motion.textarea>
-          <motion.button
-            variants={fadeUp}
+          ></textarea>
+          <button
             disabled
             type="submit"
-            className="text-white hover-scale  gradient-bg rounded-md text-sm font-medium px-4 py-2.5 w-full cursor-pointer border-0 mt-2"
+            className="text-white hover-scale gradient-bg rounded-md text-sm font-medium px-4 py-2.5 w-full cursor-pointer border-0 mt-2"
           >
             Send message
-          </motion.button>
-          <p className="text-xs text-gray-600">Currentlyform submission is not functional. Please contact me via socail media or whatsapp.</p>
-        </motion.form>
-      </motion.div>
+          </button>
+          <p className="text-xs text-gray-400">
+            Currently form submission is not functional. Please contact me via
+            social media or WhatsApp.
+          </p>
+        </form>
+      </div>
     </div>
   );
 };

@@ -1,26 +1,20 @@
 import React from "react";
 import Start from "@/app/components/hero/page.jsx";
 import Marquee from "@/app/components/marquee/marquee.jsx";
-import Project from "@/app/components/projects.jsx"
-import AboutMe from "@/app/components/aboutme.jsx"
-import Expereince from "@/app/components/experience.jsx";
+import Services from "@/app/components/services.jsx";
+import Work from "@/app/components/work.jsx";
 import ContactForm from "@/app/components/contactform.jsx";
 
-// HomeComponent.jsx
 const HomeComponent = () => {
   return (
     <>
       <Start />
       <Marquee />
-      <AboutMe />
-      <Expereince />
-      <Project />
+      <Services />
+      <Work />
       <ContactForm />
-      
-  
-      
-  </>  
+    </>
   );
-};;
+};
 
 export default HomeComponent;

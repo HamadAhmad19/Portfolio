@@ -1,0 +1,777 @@
+[
+  {
+    "id": "01",
+    "slug": "custom-software-development",
+    "title": "Custom Software Development",
+    "description": "Applications built to support your processes, users, and business requirements.",
+    "heroTitle": "Custom software built for your business.",
+    "heroLead": "Not every business process fits inside an existing tool. I develop custom applications for businesses that need software shaped around their users, workflows, and operational requirements.",
+    "usefulWhen": [
+      {
+        "title": "Off-the-shelf tools don’t fit",
+        "description": "Important work is spread across spreadsheets and disconnected systems."
+      },
+      {
+        "title": "Manual handoffs slow things down",
+        "description": "Teams re-enter the same information or chase approvals outside a shared system."
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Internal management systems",
+        "description": "Software that supports the processes your team already runs day to day."
+      },
+      {
+        "title": "Client and employee portals",
+        "description": "Secure spaces where people access information and complete assigned work."
+      },
+      {
+        "title": "Administrative dashboards",
+        "description": "Views for reviewing status, managing records, and supporting decisions."
+      },
+      {
+        "title": "Approval workflows",
+        "description": "Structured paths for requests, reviews, and handoffs between roles."
+      },
+      {
+        "title": "Connected business processes",
+        "description": "Applications that link related work instead of leaving it in disconnected tools."
+      }
+    ],
+    "technology": [
+      { "label": "Frontend", "items": ["React", "TypeScript", "Next.js"] },
+      { "label": "Backend", "items": ["Node.js", "SQL databases", "REST APIs"] }
+    ],
+    "process": [
+      {
+        "title": "Understand the requirements",
+        "description": "Discuss the business problem, users, existing systems, and priorities."
+      },
+      {
+        "title": "Define the scope",
+        "description": "Identify features, technical considerations, milestones, and deliverables."
+      },
+      {
+        "title": "Design and develop",
+        "description": "Build the agreed functionality, review progress, and address feedback."
+      },
+      {
+        "title": "Test and launch",
+        "description": "Check the product against acceptance criteria and prepare it for release."
+      }
+    ],
+    "relatedProjects": [
+      {
+        "label": "Business operations and reporting",
+        "name": "DOME",
+        "description": "Business operations software with workflows, access permissions, audit trails, and reporting."
+      },
+      {
+        "label": "HR Automation SaaS",
+        "name": "Nexify HR",
+        "description": "End-to-end SaaS application for CV parsing, interviews, performance tracking, and wellness."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much does custom software development cost?",
+        "answer": "The cost depends on features, technical complexity, integrations, and delivery requirements. I can discuss your requirements before defining a scope and estimate."
+      },
+      {
+        "question": "Do I need a complete specification?",
+        "answer": "No. A clear description of the problem, intended users, and desired functionality is a useful starting point."
+      },
+      {
+        "question": "When does custom software make sense?",
+        "answer": "When teams rely on spreadsheets, disconnected systems, or repetitive manual tasks, purpose-built software can help bring the work into a more structured process."
+      }
+    ],
+    "ctaTitle": "Ready to build custom software?"
+  },
+  {
+    "id": "02",
+    "slug": "erp-operations-software",
+    "title": "ERP & Operations Software",
+    "description": "Systems that centralize orders, inventory, approvals, reporting, and operational workflows.",
+    "heroTitle": "ERP and operations software that centralizes real work.",
+    "heroLead": "Many businesses run on spreadsheets, chat threads, and disconnected tools. I develop custom ERP-style and operations systems that bring orders, inventory, approvals, permissions, audit trails, and reporting into one practical application shaped around your processes.",
+    "usefulWhen": [
+      {
+        "title": "Work is scattered across spreadsheets and chat",
+        "description": "Orders, stock, approvals, and status updates live in different places, so nobody trusts a single source of truth."
+      },
+      {
+        "title": "Reporting takes too long",
+        "description": "Managers spend hours assembling status from exports instead of reviewing a shared operational view."
+      },
+      {
+        "title": "Permissions and accountability are unclear",
+        "description": "Too many people can change records, or important changes leave no usable history."
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Operational workflows",
+        "description": "Structured paths for requests, handoffs, status updates, and approvals across teams."
+      },
+      {
+        "title": "Inventory and order visibility",
+        "description": "Shared records for stock, orders, or operational items so teams stop reconciling conflicting spreadsheets."
+      },
+      {
+        "title": "Role-based access",
+        "description": "Permissions that control what each role can view and change."
+      },
+      {
+        "title": "Reporting and dashboards",
+        "description": "Views that help managers see status, bottlenecks, and exceptions without manual report assembly."
+      },
+      {
+        "title": "Audit trails",
+        "description": "Records of important changes so activity can be reviewed later."
+      },
+      {
+        "title": "Integrations when needed",
+        "description": "Connections to existing ERPs, accounting tools, or external APIs when the system must exchange data."
+      }
+    ],
+    "technology": [
+      { "label": "Application", "items": ["React", "TypeScript", "Node.js"] },
+      { "label": "Data", "items": ["SQL Server", "PostgreSQL", "MySQL", "REST APIs"] },
+      { "label": "Operations features", "items": ["RBAC", "Workflows", "Reporting", "Audit logging"] }
+    ],
+    "process": [
+      {
+        "title": "Map the operational work",
+        "description": "Identify users, decisions, current tools, and the bottlenecks that waste the most time."
+      },
+      {
+        "title": "Define the first release",
+        "description": "Choose the workflows, roles, and reports that must work in the initial system."
+      },
+      {
+        "title": "Build and review",
+        "description": "Develop modules with visible progress and feedback checkpoints."
+      },
+      {
+        "title": "Test with real scenarios",
+        "description": "Validate permissions, handoffs, and reporting against actual operating cases."
+      },
+      {
+        "title": "Launch and expand",
+        "description": "Release the first useful system, then plan additional modules as requirements become clearer."
+      }
+    ],
+    "relatedProjects": [
+      {
+        "label": "Business operations and reporting",
+        "name": "DOME",
+        "description": "Operations workflows, access permissions, audit trails, and reporting in one system."
+      },
+      {
+        "label": "Warehouse production",
+        "name": "WPS",
+        "description": "Warehouse production workflows with scanning, reporting, and SAP integration."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need a full ERP, or a focused operations system?",
+        "answer": "Not every business needs a large packaged ERP. Many companies get better results from a focused system that covers the workflows causing the most friction first, then expands later."
+      },
+      {
+        "question": "Can you work with an existing ERP such as SAP Business One?",
+        "answer": "Yes. Some projects improve or extend an existing ERP with custom portals, dashboards, or integrations. Others replace spreadsheet-based processes with a purpose-built operations application."
+      },
+      {
+        "question": "How does a project start?",
+        "answer": "Share the operational problem, the users involved, and any current tools. I review suitability, discuss scope if it looks like a fit, and agree next steps before a proposal."
+      }
+    ],
+    "ctaTitle": "Ready to build operations software?"
+  },
+  {
+    "id": "03",
+    "slug": "warehouse-management-software",
+    "title": "Warehouse Management Software",
+    "description": "Receiving, GRN processing, inventory visibility, and dock-to-stock warehouse workflows.",
+    "heroTitle": "Warehouse software that reduces manual receiving and inventory work.",
+    "heroLead": "Many warehouses still rely on paper GRNs, spreadsheets, and re-keying into an ERP. I build custom warehouse management software for receiving, purchase-order checks, inventory visibility, labeling, and floor workflows—so dock and stock data stay consistent.",
+    "usefulWhen": [
+      {
+        "title": "Dock work is still paper-heavy",
+        "description": "GRNs and packing slips are typed into spreadsheets or ERP screens after the fact, which slows receiving and introduces errors."
+      },
+      {
+        "title": "Inventory counts disagree",
+        "description": "Floor, purchasing, and finance each maintain different views of what arrived and what is available."
+      },
+      {
+        "title": "Exceptions are hard to catch",
+        "description": "Short shipments, wrong SKUs, and PO mismatches are discovered late because there is no shared receiving workflow."
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Receiving and GRN workflows",
+        "description": "Structured paths for goods receipt notes, packing slips, and inbound checks instead of paper-only dock processes."
+      },
+      {
+        "title": "Purchase-order matching",
+        "description": "Compare inbound quantities and lines against open POs so mismatches are visible before stock is committed."
+      },
+      {
+        "title": "Inventory visibility",
+        "description": "Shared records for received stock, locations, and status so teams stop reconciling conflicting spreadsheets."
+      },
+      {
+        "title": "Batch and lot tracking",
+        "description": "Capture batch, lot, or expiry details when the operation requires them."
+      },
+      {
+        "title": "Labels and scanning support",
+        "description": "Barcode or label steps that fit dock and floor devices when hardware is part of the process."
+      },
+      {
+        "title": "ERP and system connections",
+        "description": "Push verified receipts and inventory updates into SAP Business One or other systems when integration is required."
+      }
+    ],
+    "technology": [
+      { "label": "Application", "items": ["React", "Vite", "TypeScript", "Tailwind CSS"] },
+      { "label": "Backend", "items": ["Node.js", "Express.js", "SQL Server", "REST APIs"] },
+      { "label": "Operations", "items": ["Document parsing", "Barcode workflows", "SAP B1 integration"] }
+    ],
+    "process": [
+      {
+        "title": "Map dock and floor work",
+        "description": "Review receiving steps, documents, exceptions, devices, and where data is entered today."
+      },
+      {
+        "title": "Define the first release",
+        "description": "Choose the receiving, matching, and visibility features that must work before broader WMS modules."
+      },
+      {
+        "title": "Build and review",
+        "description": "Develop the console and integrations with checkpoints against real shipment scenarios."
+      },
+      {
+        "title": "Test with operational cases",
+        "description": "Validate mismatches, partial receipts, labeling, and ERP commits with sample dock work."
+      },
+      {
+        "title": "Launch and expand",
+        "description": "Release the first useful warehouse workflows, then plan put-away, transfers, or reporting next."
+      }
+    ],
+    "relatedProjects": [
+      {
+        "label": "Warehouse production",
+        "name": "WPS",
+        "description": "Warehouse production workflows with scanning, reporting, and SAP Business One integration."
+      },
+      {
+        "label": "Enterprise ERP",
+        "name": "DOME",
+        "description": "Centralized operations platform covering inventory, supply chain, and reporting modules."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need a full commercial WMS?",
+        "answer": "Not always. Many operations get more value from focused warehouse software that covers receiving, GRN processing, and inventory visibility first, then expands only where the floor still has friction."
+      },
+      {
+        "question": "Can this connect to SAP Business One or another ERP?",
+        "answer": "Yes. Some projects commit verified receipts into an existing ERP. Others keep a warehouse console as the working layer and sync selected fields."
+      },
+      {
+        "question": "How does a project start?",
+        "answer": "Share how receiving works today, which documents and systems are involved, and where re-entry or mismatches happen. I review suitability and discuss scope before a proposal."
+      }
+    ],
+    "ctaTitle": "Ready to improve warehouse workflows?"
+  },
+  {
+    "id": "04",
+    "slug": "business-dashboards-internal-tools",
+    "title": "Business Dashboards & Internal Tools",
+    "description": "Dashboards and back-office tools that replace spreadsheet reporting and scattered workflows.",
+    "heroTitle": "Business dashboards and internal tools that replace spreadsheet chaos.",
+    "heroLead": "When status lives in exports, shared drives, and chat threads, managers spend time assembling reports instead of acting on them. I build custom business dashboards and internal tools that surface the right records, approvals, and metrics in one place.",
+    "usefulWhen": [
+      {
+        "title": "Reporting is assembled by hand",
+        "description": "Managers export from multiple tools and stitch status together in spreadsheets every week."
+      },
+      {
+        "title": "Back-office work is scattered",
+        "description": "Approvals, record updates, and triage live in email, chat, and shared files instead of one console."
+      },
+      {
+        "title": "People cannot see the same truth",
+        "description": "Different teams look at different extracts, so decisions are delayed or disputed."
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Operational dashboards",
+        "description": "Views for status, bottlenecks, exceptions, and KPIs without manual report assembly."
+      },
+      {
+        "title": "Internal admin tools",
+        "description": "Back-office consoles for searching records, updating status, and completing day-to-day work."
+      },
+      {
+        "title": "Approval and triage queues",
+        "description": "Structured lists for reviews, requests, and handoffs between roles."
+      },
+      {
+        "title": "Role-based access",
+        "description": "Permissions that control what each role can view and change."
+      },
+      {
+        "title": "Exports and bulk actions",
+        "description": "Practical exports and multi-record actions when teams still need spreadsheets or batch updates."
+      },
+      {
+        "title": "Multi-source data views",
+        "description": "Combine SQL databases, ERP extracts, and APIs into one operational screen when a single system is not enough."
+      }
+    ],
+    "technology": [
+      { "label": "Application", "items": ["React", "Next.js", "TypeScript"] },
+      { "label": "Data", "items": ["PostgreSQL", "SQL Server", "MySQL", "REST APIs"] },
+      { "label": "Reporting", "items": ["Charts", "Tables", "Exports"] }
+    ],
+    "process": [
+      {
+        "title": "Map decisions and data",
+        "description": "Identify who needs which views, where data lives today, and which manual steps waste the most time."
+      },
+      {
+        "title": "Define the first release",
+        "description": "Choose the dashboards, queues, and permissions that must work before expanding."
+      },
+      {
+        "title": "Build and review",
+        "description": "Develop the console with visible progress and feedback from actual operators."
+      },
+      {
+        "title": "Test with real scenarios",
+        "description": "Validate filters, permissions, and reporting against day-to-day cases."
+      },
+      {
+        "title": "Launch and expand",
+        "description": "Release the first useful tools, then add modules as reporting and workflow needs become clearer."
+      }
+    ],
+    "relatedProjects": [
+      {
+        "label": "Business operations and reporting",
+        "name": "DOME",
+        "description": "Internal operations product with dashboards, permissions, and reporting views."
+      },
+      {
+        "label": "Admin operations dashboard",
+        "name": "Nexify HR",
+        "description": "Analytics dashboards and admin workflows for HR teams."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Should we use a low-code tool or custom dashboards?",
+        "answer": "Low-code tools can work for simple prototypes. Custom dashboards make more sense when you need specific workflows, permissions, performance with your data model, or a tool that matches how your team already operates."
+      },
+      {
+        "question": "Can a dashboard pull from more than one system?",
+        "answer": "Yes. Many projects combine SQL databases, ERP data, and third-party APIs into one operational view."
+      },
+      {
+        "question": "How does a project start?",
+        "answer": "Share the reports or workflows that are painful today, the users involved, and the systems that hold the data. I review suitability and discuss scope before a proposal."
+      }
+    ],
+    "ctaTitle": "Ready to build your internal tools?"
+  },
+  {
+    "id": "05",
+    "slug": "web-development",
+    "title": "Web Development",
+    "description": "Websites, dashboards, portals, and browser-based applications.",
+    "heroTitle": "Web applications designed around real use.",
+    "heroLead": "From customer-facing websites to complex browser-based applications, I develop web experiences with attention to usability, functionality, and long-term maintenance. The technical approach depends on whether the product needs to communicate information or help people complete ongoing tasks.",
+    "usefulWhen": [
+      {
+        "title": "Customers or staff need a browser-based workspace",
+        "description": "Important tasks still depend on email threads, shared folders, or a website that cannot support accounts and ongoing work."
+      },
+      {
+        "title": "The current web product is difficult to use or maintain",
+        "description": "People avoid the tool, or every small change takes longer than it should because the interface and structure grew without a clear plan."
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Business websites",
+        "description": "Sites that communicate what you offer and help visitors take the next step."
+      },
+      {
+        "title": "Web platforms and portals",
+        "description": "Account-based applications where customers, employees, or partners manage information and complete work."
+      },
+      {
+        "title": "Dashboards and admin tools",
+        "description": "Interfaces for reviewing status, managing records, and supporting day-to-day operations."
+      },
+      {
+        "title": "Responsive application interfaces",
+        "description": "Layouts and interactions that remain usable across desktop and mobile browsers."
+      },
+      {
+        "title": "Connected services",
+        "description": "Integration with existing APIs, databases, and third-party tools where the product needs them."
+      }
+    ],
+    "technology": [
+      { "label": "Frontend", "items": ["React", "Next.js", "TypeScript", "Tailwind CSS"] },
+      { "label": "Backend & APIs", "items": ["Node.js", "Express.js", "REST APIs"] },
+      { "label": "Data", "items": ["PostgreSQL", "SQL Server", "MongoDB"] },
+      { "label": "Delivery", "items": ["Cloud hosting", "CI/CD"] }
+    ],
+    "process": [
+      {
+        "title": "Clarify the purpose",
+        "description": "Separate website goals from application workflows and identify the users involved."
+      },
+      {
+        "title": "Define scope",
+        "description": "Agree pages, features, data needs, and integration requirements."
+      },
+      {
+        "title": "Design and develop",
+        "description": "Build the agreed interface and functionality with review points along the way."
+      },
+      {
+        "title": "Test and launch",
+        "description": "Check usability, key flows, and release readiness."
+      },
+      {
+        "title": "Maintain and improve",
+        "description": "Support updates and later improvements as needs change."
+      }
+    ],
+    "relatedProjects": [
+      {
+        "label": "Business operations and reporting",
+        "name": "DOME",
+        "description": "Business operations software with workflows, access permissions, audit trails, and reporting."
+      },
+      {
+        "label": "SaaS platform",
+        "name": "Nexify HR",
+        "description": "Full-stack SaaS web application with auth, dashboards, and HR workflows."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What’s the difference between a website and a web application?",
+        "answer": "A business website communicates information and helps visitors take action. A web application allows users to complete tasks, manage data, and interact with a system over time."
+      },
+      {
+        "question": "What considerations affect web project scope?",
+        "answer": "Accessibility, responsive layouts, performance, account management, data handling, and integration with existing services all influence scope."
+      },
+      {
+        "question": "Can you improve an existing web application?",
+        "answer": "Yes. I can review the current product, identify practical improvements, and plan changes without assuming a full rebuild."
+      }
+    ],
+    "ctaTitle": "Ready to build your Web Development project?"
+  },
+  {
+    "id": "06",
+    "slug": "mobile-app-development",
+    "title": "Mobile App Development",
+    "description": "Mobile applications for customers, teams, and everyday workflows.",
+    "heroTitle": "Mobile apps that make everyday tasks easier.",
+    "heroLead": "I develop mobile applications for businesses that want to reach customers, deliver services, or give teams access to tools while they’re on the move. Before building screens, I focus on what users need to do and which interactions should stay simple.",
+    "usefulWhen": [
+      {
+        "title": "Work happens away from a desk",
+        "description": "Teams or customers need to complete tasks on a phone, but the current process still depends on paper, chat messages, or a desktop-only system."
+      },
+      {
+        "title": "The mobile experience is incomplete",
+        "description": "An existing product has a website or back office, but the mobile journey users actually need is missing or unreliable."
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "User accounts and profiles",
+        "description": "Sign-in, account settings, and role-based access when the product needs them."
+      },
+      {
+        "title": "Notifications and updates",
+        "description": "Timely alerts that help users return to important tasks or status changes."
+      },
+      {
+        "title": "Dashboards and data entry",
+        "description": "Mobile screens for reviewing information and submitting work from the field or on the go."
+      },
+      {
+        "title": "Scheduling and service workflows",
+        "description": "Flows that support appointments, jobs, or recurring mobile tasks."
+      },
+      {
+        "title": "API-connected functionality",
+        "description": "Mobile clients connected to backend services and existing business systems."
+      }
+    ],
+    "technology": [
+      { "label": "Mobile", "items": ["React Native", "Expo", ".NET MAUI", "TypeScript"] },
+      { "label": "Device features", "items": ["Camera", "Notifications", "Local storage", "BLE"] },
+      { "label": "Backend", "items": ["Node.js", "ASP.NET", "REST APIs"] },
+      { "label": "Delivery", "items": ["Test builds", "App store release support"] }
+    ],
+    "process": [
+      {
+        "title": "User journey discovery",
+        "description": "Understand what users need to do, how often they will use the app, and which actions must feel immediate."
+      },
+      {
+        "title": "Platform planning",
+        "description": "Consider device support, offline needs, security, performance, and update requirements."
+      },
+      {
+        "title": "Design and develop",
+        "description": "Build the agreed screens and functionality with reviewable progress."
+      },
+      {
+        "title": "Device testing",
+        "description": "Validate key flows across the target devices and usage conditions."
+      },
+      {
+        "title": "Release and follow-up",
+        "description": "Prepare store or internal distribution and discuss ongoing updates."
+      }
+    ],
+    "relatedProjects": [
+      {
+        "label": "Healthcare",
+        "name": "GlucoTrack",
+        "description": "Mobile glucose monitoring with sensor pairing and clinical records."
+      },
+      {
+        "label": "Field service",
+        "name": "Matrix",
+        "description": "Field service app for jobs, tracking, and equipment checks."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need separate iOS and Android projects?",
+        "answer": "Not always. Cross-platform approaches can share much of the product logic when the requirements and device features allow it. The right choice depends on the project."
+      },
+      {
+        "question": "What should be decided before development starts?",
+        "answer": "Device support, offline requirements, security expectations, performance needs, and how updates will be released should be considered early."
+      },
+      {
+        "question": "Can you work with an existing backend?",
+        "answer": "Yes. Mobile apps often connect to existing APIs. I review those interfaces as part of planning."
+      }
+    ],
+    "ctaTitle": "Ready to build your mobile app?"
+  },
+  {
+    "id": "07",
+    "slug": "saas-development",
+    "title": "SaaS Development",
+    "description": "Subscription platforms with accounts, permissions, and product management.",
+    "heroTitle": "Build your SaaS product on a practical foundation.",
+    "heroLead": "A SaaS product needs more than its core features. User access, account management, subscriptions, and everyday administration all contribute to how the product operates. I develop cloud-based software with the features required to manage users, access, and day-to-day product work.",
+    "usefulWhen": [
+      {
+        "title": "The idea is clear, but the product foundation is not",
+        "description": "You know the core feature users need, but accounts, permissions, and admin tools still need to be planned before a usable release."
+      },
+      {
+        "title": "An existing product is hard to extend",
+        "description": "New requests keep colliding with an architecture or interface that was never designed for ongoing product development."
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "Authentication and permissions",
+        "description": "Account access, roles, and permission models that match how different users should work in the product."
+      },
+      {
+        "title": "Subscription and account handling",
+        "description": "Subscription flows, plan changes, and related account operations planned around the product’s commercial model."
+      },
+      {
+        "title": "Application dashboards",
+        "description": "Product surfaces where customers and operators complete everyday tasks and review status."
+      },
+      {
+        "title": "Administrative tools",
+        "description": "Back-office controls for managing users, content, configuration, and operational support."
+      },
+      {
+        "title": "Integrations and workflows",
+        "description": "Connections to payment providers, email services, analytics, and other systems the product depends on."
+      }
+    ],
+    "technology": [
+      { "label": "Product surface", "items": ["React", "Next.js", "TypeScript"] },
+      { "label": "Application services", "items": ["Node.js", "REST APIs", "MongoDB", "PostgreSQL"] },
+      { "label": "Product operations", "items": ["Auth", "Roles", "Billing integrations"] },
+      { "label": "Delivery", "items": ["Cloud hosting", "CI/CD", "Monitoring"] }
+    ],
+    "process": [
+      {
+        "title": "Product requirements",
+        "description": "Identify the users, core workflows, and what the first useful release needs to include."
+      },
+      {
+        "title": "Foundation planning",
+        "description": "Define accounts, permissions, data model, and the operational features around the product."
+      },
+      {
+        "title": "Build the release",
+        "description": "Develop the agreed product features with room for review and feedback."
+      },
+      {
+        "title": "Test and prepare launch",
+        "description": "Validate critical paths, account flows, and release readiness."
+      },
+      {
+        "title": "Continue development",
+        "description": "Plan maintenance, improvements, and the next set of product work."
+      }
+    ],
+    "relatedProjects": [
+      {
+        "label": "HR Automation SaaS",
+        "name": "Nexify HR",
+        "description": "SaaS platform with authentication, dashboards, and automated HR workflows."
+      },
+      {
+        "label": "Enterprise platform",
+        "name": "DOME",
+        "description": "Multi-module operations platform with roles, permissions, and reporting."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do we need every SaaS feature in the first release?",
+        "answer": "No. An early release should focus on the functionality that matters most to the intended users. Additional features can be planned as requirements become clearer."
+      },
+      {
+        "question": "Can you work on an existing SaaS product?",
+        "answer": "Yes. I can review the current architecture, product gaps, and proposed changes before agreeing an approach."
+      },
+      {
+        "question": "How do you plan for continued development?",
+        "answer": "Documented requirements, maintainable architecture, testing, and clear release processes help create a foundation for future work."
+      }
+    ],
+    "ctaTitle": "Ready to build your SaaS product?"
+  },
+  {
+    "id": "08",
+    "slug": "integrations-engineering",
+    "title": "Integrations & Engineering",
+    "description": "Connect systems, improve applications, and support ongoing releases.",
+    "heroTitle": "Make your existing software work better together.",
+    "heroLead": "Businesses often use multiple tools to handle different tasks. I help connect applications, develop integrations, and improve existing software where manual handoffs or technical limitations are getting in the way.",
+    "usefulWhen": [
+      {
+        "title": "Systems do not exchange information cleanly",
+        "description": "Teams re-enter the same records across tools because the applications were never connected for the workflow they support."
+      },
+      {
+        "title": "An existing application needs targeted improvement",
+        "description": "A full rebuild is unnecessary, but recurring bugs, missing features, or fragile integrations are slowing daily work."
+      }
+    ],
+    "deliverables": [
+      {
+        "title": "System integrations",
+        "description": "Pass information between websites, CRMs, ERPs, and other tools your team already relies on."
+      },
+      {
+        "title": "API development",
+        "description": "Build and maintain APIs that let applications exchange data reliably."
+      },
+      {
+        "title": "Existing-system improvements",
+        "description": "Fix recurring issues, improve workflows, or add functionality to software already in use."
+      },
+      {
+        "title": "Technical maintenance",
+        "description": "Support releases, address defects, and keep systems workable as requirements change."
+      },
+      {
+        "title": "Technical discovery",
+        "description": "Review architecture, available APIs, dependencies, access requirements, and constraints before committing to an approach."
+      }
+    ],
+    "technology": [
+      { "label": "Integration", "items": ["REST APIs", "Webhooks", "Middleware"] },
+      { "label": "Application work", "items": ["Node.js", "TypeScript", "SQL databases"] },
+      { "label": "Connected systems", "items": ["CRM", "ERP", "SAP Business One", "Third-party services"] },
+      { "label": "Delivery", "items": ["Staging environments", "Release support", "Monitoring"] }
+    ],
+    "process": [
+      {
+        "title": "Technical discovery",
+        "description": "Review the existing architecture, APIs, dependencies, and constraints."
+      },
+      {
+        "title": "Define the approach",
+        "description": "Agree what should be connected, improved, or rebuilt and in what order."
+      },
+      {
+        "title": "Implement the change",
+        "description": "Develop the integration or improvement with review points along the way."
+      },
+      {
+        "title": "Validate and release",
+        "description": "Test the connected workflows and prepare the change for production use."
+      },
+      {
+        "title": "Support what comes next",
+        "description": "Discuss monitoring, maintenance, and later improvements if needed."
+      }
+    ],
+    "relatedProjects": [
+      {
+        "label": "SAP integration",
+        "name": "WPS",
+        "description": "Warehouse workflows connected to SAP Business One with verified receiving and inventory updates."
+      },
+      {
+        "label": "Enterprise operations",
+        "name": "DOME",
+        "description": "Connected operational modules with APIs, permissions, and audit logging."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can you work on an existing application?",
+        "answer": "Yes. I can review an existing system to understand its architecture, current issues, and proposed changes before determining a suitable approach."
+      },
+      {
+        "question": "Do all projects require a full rebuild?",
+        "answer": "No. Sometimes the right approach is to fix a recurring issue, improve a workflow, or add functionality to a system already in use."
+      },
+      {
+        "question": "What determines the scope of an integration?",
+        "answer": "Available APIs, data ownership, authentication, error handling, and the business workflows that depend on the connection all affect scope."
+      }
+    ],
+    "ctaTitle": "Ready to improve your systems?"
+  }
+]
